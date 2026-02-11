@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Optional
 
 import requests
 from rapidfuzz import fuzz
+from collections import defaultdict
 
 
 # ==============================
@@ -262,3 +263,114 @@ def chembl_paginated(
         params["offset"] += page_size
 
     return all_items
+
+
+def build_molecule_evidence_pack(molecule_chembl_id: str, max_activities: int = 400) -> Dict[str, Any]:
+    """
+    Creates a compact summary of:
+    - molecule details (name, SMILES if available)
+    - top targets based on bioactivity records
+    """
+
+    # 1) Basic molecule info
+    mol = chembl_get(f"/molecule/{molecule_chembl_id}") or {}
+    preferred_name = mol.get("pref_name")
+    smiles = (mol.get("molecule_structures") or {}).get("canonical_smiles")
+    inchi = (mol.get("molecule_structures") or {}).get("standard_inchi")
+    molecule_type = mol.get("molecule_type")
+
+    # 2) Pull bioactivities
+    activities = chembl_paginated(
+        "/activity",
+        params={"molecule_chembl_id": molecule_chembl_id},
+        limit_total=max_activities,
+        page_size=200,
+        cache_prefix=f"act_{molecule_chembl_id}_",
+    )
+
+    # 3) Aggregate activities per target
+    per_target = defaultdict(lambda: {
+        "target_chembl_id": None,
+        "target_pref_name": None,
+        "n_records": 0,
+        "types": defaultdict(int),
+        "units": set(),
+        "standard_relation": defaultdict(int),
+        "standard_value_examples": [],
+        "assay_chembl_ids": set(),
+        "references": set(),  # document_chembl_id
+    })
+
+    def safe_float(x):
+        try:
+            return float(x)
+        except Exception:
+            return None
+
+    for a in activities:
+        tgt = a.get("target_chembl_id")
+        if not tgt:
+            continue
+
+        std_type = a.get("standard_type") or ""
+        std_value = safe_float(a.get("standard_value"))
+        std_units = a.get("standard_units") or ""
+        std_rel = a.get("standard_relation") or ""
+        tgt_name = a.get("target_pref_name") or ""
+
+        bucket = per_target[tgt]
+        bucket["target_chembl_id"] = tgt
+        if tgt_name:
+            bucket["target_pref_name"] = tgt_name
+        bucket["n_records"] += 1
+
+        if std_type:
+            bucket["types"][std_type] += 1
+        if std_units:
+            bucket["units"].add(std_units)
+        if std_rel:
+            bucket["standard_relation"][std_rel] += 1
+
+        if std_value is not None and len(bucket["standard_value_examples"]) < 10:
+            bucket["standard_value_examples"].append({
+                "type": std_type,
+                "value": std_value,
+                "units": std_units,
+                "relation": std_rel,
+            })
+
+        assay_id = a.get("assay_chembl_id")
+        if assay_id:
+            bucket["assay_chembl_ids"].add(assay_id)
+
+        doc_id = a.get("document_chembl_id")
+        if doc_id:
+            bucket["references"].add(doc_id)
+
+    # 4) Score/sort targets by number of records
+    targets_summary = []
+    for tgt, info in per_target.items():
+        targets_summary.append({
+            "target_chembl_id": info["target_chembl_id"],
+            "target_pref_name": info["target_pref_name"],
+            "n_records": info["n_records"],
+            "activity_types": dict(sorted(info["types"].items(), key=lambda x: x[1], reverse=True)),
+            "units": sorted(list(info["units"]))[:5],
+            "relation_counts": dict(info["standard_relation"]),
+            "value_examples": info["standard_value_examples"],
+            "n_assays": len(info["assay_chembl_ids"]),
+            "n_references": len(info["references"]),
+        })
+
+    targets_summary.sort(key=lambda x: x["n_records"], reverse=True)
+
+    return {
+        "molecule_chembl_id": molecule_chembl_id,
+        "preferred_name": preferred_name,
+        "molecule_type": molecule_type,
+        "canonical_smiles": smiles,
+        "standard_inchi": inchi,
+        "n_activity_records_fetched": len(activities),
+        "top_targets": targets_summary[:15],
+        "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+    }
