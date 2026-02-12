@@ -43,13 +43,26 @@ def main():
     ap.add_argument("--drug", required=True)
     ap.add_argument("--disease", required=True)
     ap.add_argument("--out", default="reports")
+    ap.add_argument("--agentic", action="store_true", help="Enable agentic self-repair loop")
 
     args = ap.parse_args()
 
-    res = run_pipeline(
-        disease=args.disease,
-        drug=args.drug,
-    )
+    if args.agentic:
+        from medgemma.generation.lmstudio_backend import generate_report_lmstudio
+        from medgemma.agentic.repair_lmstudio import agentic_research_pipeline_lmstudio
+
+        def llm_generate(prompt: str, max_tokens: int):
+            return generate_report_lmstudio(prompt, max_tokens=max_tokens)
+
+        res = agentic_research_pipeline_lmstudio(
+            disease=args.disease,
+            drug=args.drug,
+            llm_generate=llm_generate,
+            max_retries=3,
+            target_coverage=90.0,
+        )
+    else:
+        res = run_pipeline(disease=args.disease, drug=args.drug)
 
     if "error" in res:
         print("ERROR:", res["error"])
@@ -57,8 +70,9 @@ def main():
 
     print("\n==== TRUST SCORE ====")
     print(res.get("trust_score"))
-    print("Bad refs:", res.get("metrics", {}).get("bad_reference_nums"))
-    print("Missing examples:", res.get("metrics", {}).get("missing_examples"))
+    print("Bad refs:", res.get("metrics", res.get("metrics_all", {})).get("bad_reference_nums"))
+    print("Missing examples:", res.get("metrics", res.get("metrics_all", {})).get("missing_examples"))
+    print("Agentic used:", res.get("agentic_used", False), "attempts:", res.get("agentic_attempts", 0))
 
     print("\n==== REPORT ====\n")
     print(res.get("report", ""))
