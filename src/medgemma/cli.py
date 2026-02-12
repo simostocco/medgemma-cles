@@ -1,25 +1,39 @@
-import os
+# src/medgemma/cli.py
 import argparse
-
-from medgemma.generation.model import load_txgemma_submit_safe
 from medgemma.pipeline.orchestrator import run_pipeline
+
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--drug", required=True)
     ap.add_argument("--disease", required=True)
-    ap.add_argument("--model_id", default="google/txgemma-9b-chat")
+
+    # Optional overrides for LM Studio
+    ap.add_argument("--max_tokens", type=int, default=384)
+    ap.add_argument("--n_papers", type=int, default=25)
+    ap.add_argument("--max_snippets", type=int, default=10)
+    ap.add_argument("--sort", type=str, default="relevance")
+
     args = ap.parse_args()
 
-    token = os.getenv("HF_TOKEN")
-    tokenizer, model, _ = load_txgemma_submit_safe(args.model_id, token=token)
+    res = run_pipeline(
+        disease=args.disease,
+        drug=args.drug,
+        n_papers=args.n_papers,
+        max_snippets=args.max_snippets,
+        sort=args.sort,
+    )
 
-    res = run_pipeline(disease=args.disease, drug=args.drug)
+    if "error" in res:
+        print("ERROR:", res["error"])
+        return
 
     print("\n==== TRUST SCORE ====")
     print(res.get("trust_score"))
-    print("\n==== REPORT ====")
+
+    print("\n==== REPORT ====\n")
     print(res.get("report", ""))
+
 
 if __name__ == "__main__":
     main()
