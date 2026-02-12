@@ -7,7 +7,7 @@ from typing import Any, Dict, Optional
 from medgemma.retrieval.chembl import resolve_drug_to_chembl, build_molecule_evidence_pack
 from medgemma.retrieval.pubmed import build_text_evidence_pack, make_snippets_from_text_pack
 from medgemma.generation.lmstudio_backend import generate_report_lmstudio
-from medgemma.generation.prompt import build_prompt
+from medgemma.generation.prompts import build_prompt
 from medgemma.validation.citations import validate_citations
 
 
