@@ -210,3 +210,25 @@ data_cache/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# secrets / env
+.env
+.env.*
+*.env
+
+# caches / models
+__pycache__/
+*.pyc
+.cache/
+huggingface/
+**/.cache/
+**/data_cache/
+**/evidence_packs/
+**/text_packs/
+**/reports/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
