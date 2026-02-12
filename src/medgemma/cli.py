@@ -14,12 +14,7 @@ def main():
     token = os.getenv("HF_TOKEN")
     tokenizer, model, _ = load_txgemma_submit_safe(args.model_id, token=token)
 
-    res = run_pipeline(
-        disease=args.disease,
-        drug=args.drug,
-        tokenizer=tokenizer,
-        model=model,
-    )
+    res = run_pipeline(disease=args.disease, drug=args.drug)
 
     print("\n==== TRUST SCORE ====")
     print(res.get("trust_score"))
