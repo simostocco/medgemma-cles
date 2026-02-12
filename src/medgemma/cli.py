@@ -73,6 +73,7 @@ def main():
     print("Bad refs:", res.get("metrics", res.get("metrics_all", {})).get("bad_reference_nums"))
     print("Missing examples:", res.get("metrics", res.get("metrics_all", {})).get("missing_examples"))
     print("Agentic used:", res.get("agentic_used", False), "attempts:", res.get("agentic_attempts", 0))
+    print("Rewritten to insufficiency:", res.get("n_rewritten_to_insufficient", 0))
 
     print("\n==== REPORT ====\n")
     print(res.get("report", ""))

@@ -46,7 +46,8 @@ def agentic_research_pipeline_lmstudio(
     """
 
     result = run_pipeline(disease=disease, drug=drug)
-
+    n_rewritten_to_insufficient = 0
+    
     snippets = result.get("snippets") or []
     if not snippets:
         result["agentic_used"] = False
@@ -84,8 +85,10 @@ You are repairing ONLY bullet points that are missing citations in a grounded bi
 CONSTRAINTS:
 - Use ONLY citations [S1]..[S{max_sid}] from the provided snippets.
 - Do NOT introduce any new factual claims.
-- Keep each bullet's meaning if it is supported by snippets, and add best citation(s) at the end.
-- If not supported, replace the bullet with: "Insufficient evidence in provided snippets." + ONE citation.
+- If the bullet meaning is NOT clearly supported by snippets, you MUST replace it with:
+  "Insufficient evidence in provided snippets." + ONE citation.
+- Do NOT introduce new scientific claims.
+- Do NOT summarize snippet content unless it directly supports the original bullet.- If not supported, replace the bullet with: "Insufficient evidence in provided snippets." + ONE citation.
 - Output exactly {len(bullets_to_fix)} bullets, numbered 1)..{len(bullets_to_fix)}), one per line.
 - Output ONLY the numbered bullets (no extra text).
 
@@ -113,7 +116,13 @@ BULLETS TO FIX:
             repaired_lines.extend(bullets_to_fix[len(repaired_lines):])
         repaired_lines = repaired_lines[: len(bullets_to_fix)]
 
-        return repaired_lines
+        insuff_count = 0
+
+        for line in repaired_lines:
+            if "Insufficient evidence" in line:
+                insuff_count += 1
+
+        return repaired_lines, insuff_count
 
     # agentic loop: repair missing-citation bullets across report
     attempts = 0
@@ -130,7 +139,8 @@ BULLETS TO FIX:
             break
 
         bullets_to_fix = [bullets[i] for i in bad_idx]
-        repaired = repair_bullets_anywhere(bullets_to_fix)
+        repaired, insuff_count = repair_bullets_anywhere(bullets_to_fix)
+        n_rewritten_to_insufficient += insuff_count
 
         for j, b_i in enumerate(bad_idx):
             lines[bullet_positions[b_i]] = repaired[j]
@@ -153,5 +163,6 @@ BULLETS TO FIX:
     # section metrics
     sec2 = get_evidence_summary_bullets(report)
     result["metrics_sec2"] = validate_bullets_only(sec2, snippets=snippets)
-
+    result["n_rewritten_to_insufficient"] = n_rewritten_to_insufficient
+    
     return result
