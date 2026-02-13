@@ -78,9 +78,6 @@ def main():
     print("\n==== REPORT ====\n")
     print(res.get("report", ""))
 
-    path = save_markdown_report(res, args.out)
-    print(f"\nSaved report to: {path}")
-
 
 if __name__ == "__main__":
     main()
