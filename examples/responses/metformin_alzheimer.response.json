@@ -1,0 +1,907 @@
+﻿{
+    "metadata":  {
+                     "disease":  "Alzheimer\u0027s disease",
+                     "drug":  "Metformin",
+                     "chembl_id":  "CHEMBL1431",
+                     "chembl_match_reason":  "exact",
+                     "chembl_preferred_name":  "METFORMIN"
+                 },
+    "molecule_pack":  {
+                          "molecule_chembl_id":  "CHEMBL1431",
+                          "preferred_name":  "METFORMIN",
+                          "molecule_type":  "Small molecule",
+                          "canonical_smiles":  "CN(C)C(=N)NC(=N)N",
+                          "standard_inchi":  "InChI=1S/C4H11N5/c1-9(2)4(7)8-3(5)6/h1-2H3,(H5,5,6,7,8)",
+                          "n_activity_records_fetched":  400,
+                          "top_targets":  [
+                                              {
+                                                  "target_chembl_id":  "CHEMBL376",
+                                                  "target_pref_name":  "Rattus norvegicus",
+                                                  "n_records":  68,
+                                                  "activity_types":  {
+                                                                         "Activity":  48,
+                                                                         "Inhibition":  7,
+                                                                         "Glucose rise":  3,
+                                                                         "Glyceamia evolution":  2,
+                                                                         "AUC":  2,
+                                                                         "Tmax":  2,
+                                                                         "Cmax":  2,
+                                                                         "CL":  1,
+                                                                         "F":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "hr",
+                                                                "mL.min-1.kg-1",
+                                                                "mg dl-1",
+                                                                "mg/dl"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  68
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Glucose rise",
+                                                                             "value":  68.0,
+                                                                             "units":  "mg dl-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glucose rise",
+                                                                             "value":  113.0,
+                                                                             "units":  "mg dl-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glucose rise",
+                                                                             "value":  45.0,
+                                                                             "units":  "mg dl-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  41.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glyceamia evolution",
+                                                                             "value":  -24.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glyceamia evolution",
+                                                                             "value":  -24.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  12.9,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  12.9,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  19.1,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  134.8,
+                                                                             "units":  "mg/dl",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  68,
+                                                  "n_references":  23
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612545",
+                                                  "target_pref_name":  "Unchecked",
+                                                  "n_records":  46,
+                                                  "activity_types":  {
+                                                                         "IC50":  23,
+                                                                         "Ki":  23
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  23,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL375",
+                                                  "target_pref_name":  "Mus musculus",
+                                                  "n_records":  40,
+                                                  "activity_types":  {
+                                                                         "Activity":  35,
+                                                                         "Glucose level":  2,
+                                                                         "BGL":  1,
+                                                                         "HAR":  1,
+                                                                         "Inhibition":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "g",
+                                                                "mg dl-1",
+                                                                "mg/dl",
+                                                                "mmol/L"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  37
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "BGL",
+                                                                             "value":  86.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HAR",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glucose level",
+                                                                             "value":  253.0,
+                                                                             "units":  "mg dl-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Glucose level",
+                                                                             "value":  208.0,
+                                                                             "units":  "mg dl-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  20.5,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  19.1,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  -11.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  -22.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  263.2,
+                                                                             "units":  "mg/dl",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  232.7,
+                                                                             "units":  "mg/dl",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  40,
+                                                  "n_references":  12
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1697861",
+                                                  "target_pref_name":  "Hepatotoxicity",
+                                                  "n_records":  23,
+                                                  "activity_types":  {
+                                                                         "Hepatotoxicity":  5,
+                                                                         "Composite Activity - Score":  1,
+                                                                         "Composite Activity - Active":  1,
+                                                                         "Composite Activity - Marginal":  1,
+                                                                         "Alkaline Phosphatase Increase - Activity Score":  1,
+                                                                         "Alkaline Phosphatase Increase - Index Value":  1,
+                                                                         "Alkaline Phosphatase Increase - Number of Reports":  1,
+                                                                         "SGOT Increase - Activity Score":  1,
+                                                                         "SGOT Increase - Index Value":  1,
+                                                                         "SGOT Increase - Number of Reports":  1,
+                                                                         "SGPT Increase - Activity Score":  1,
+                                                                         "SGPT Increase - Index Value":  1,
+                                                                         "SGPT Increase - Number of Reports":  1,
+                                                                         "LDH Increase - Activity Score":  1,
+                                                                         "LDH Increase - Index Value":  1,
+                                                                         "LDH Increase - Number of Reports":  1,
+                                                                         "GGT Increase - Activity Score":  1,
+                                                                         "GGT Increase - Index Value":  1,
+                                                                         "GGT Increase - Number of Reports":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  7,
+                                                                          "\u003c":  5
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Composite Activity - Active",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Composite Activity - Marginal",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Alkaline Phosphatase Increase - Index Value",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Alkaline Phosphatase Increase - Number of Reports",
+                                                                             "value":  4.0,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "SGOT Increase - Index Value",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "SGOT Increase - Number of Reports",
+                                                                             "value":  4.0,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "SGPT Increase - Index Value",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "SGPT Increase - Number of Reports",
+                                                                             "value":  4.0,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "LDH Increase - Index Value",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LDH Increase - Number of Reports",
+                                                                             "value":  4.0,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003c"
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  11,
+                                                  "n_references":  4
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL372",
+                                                  "target_pref_name":  "Homo sapiens",
+                                                  "n_records":  15,
+                                                  "activity_types":  {
+                                                                         "Activity":  4,
+                                                                         "CL":  3,
+                                                                         "CL_renal":  2,
+                                                                         "Vdss":  2,
+                                                                         "F_fraction":  1,
+                                                                         "Fa":  1,
+                                                                         "Fg":  1,
+                                                                         "Fh":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "L.kg-1",
+                                                                "mL.min-1.kg-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  15
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  1.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  1.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  1.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  7.4,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL_renal",
+                                                                             "value":  7.4,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  7.4,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL_renal",
+                                                                             "value":  7.4,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  0.0,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "F_fraction",
+                                                                             "value":  0.52,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Fa",
+                                                                             "value":  0.52,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  15,
+                                                  "n_references":  5
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612558",
+                                                  "target_pref_name":  "ADMET",
+                                                  "n_records":  11,
+                                                  "activity_types":  {
+                                                                         "Papp":  4,
+                                                                         "FA":  1,
+                                                                         "Activity":  1,
+                                                                         "Vdss":  1,
+                                                                         "MRT":  1,
+                                                                         "T1/2":  1,
+                                                                         "CL":  1,
+                                                                         "log10(%HIA +10)":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "L.kg-1",
+                                                                "cm/s * 10E6",
+                                                                "hr",
+                                                                "mL.min-1.kg-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  11
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Papp",
+                                                                             "value":  0.66,
+                                                                             "units":  "cm/s * 10E6",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Papp",
+                                                                             "value":  20.0,
+                                                                             "units":  "cm/s * 10E6",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Papp",
+                                                                             "value":  0.51,
+                                                                             "units":  "cm/s * 10E6",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Papp",
+                                                                             "value":  115.0,
+                                                                             "units":  "cm/s * 10E6",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FA",
+                                                                             "value":  55.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  84.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Vdss",
+                                                                             "value":  0.64,
+                                                                             "units":  "L.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MRT",
+                                                                             "value":  1.4,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "T1/2",
+                                                                             "value":  1.7,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  7.4,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  11,
+                                                  "n_references":  4
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL284",
+                                                  "target_pref_name":  "Dipeptidyl peptidase 4",
+                                                  "n_records":  4,
+                                                  "activity_types":  {
+                                                                         "Inhibition":  2,
+                                                                         "IC50":  1,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  3
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  29000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  12.7,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  21.9,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  4,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2362975",
+                                                  "target_pref_name":  "No relevant target",
+                                                  "n_records":  4,
+                                                  "activity_types":  {
+                                                                         "LogD":  2,
+                                                                         "Activity":  1,
+                                                                         "pKa":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  4
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "LogD",
+                                                                             "value":  -3.37,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogD",
+                                                                             "value":  -3.41,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  11.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  11.5,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  4,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1626541",
+                                                  "target_pref_name":  "Phospholipidosis",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "Phospholipidosis":  3
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  3,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3397",
+                                                  "target_pref_name":  "Cytochrome P450 2C9",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "AC50":  1,
+                                                                         "IC50":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL289",
+                                                  "target_pref_name":  "Cytochrome P450 2D6",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "AC50":  1,
+                                                                         "IC50":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3622",
+                                                  "target_pref_name":  "Cytochrome P450 2C19",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "AC50":  1,
+                                                                         "IC50":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL340",
+                                                  "target_pref_name":  "Cytochrome P450 3A4",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "AC50":  1,
+                                                                         "IC50":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3356",
+                                                  "target_pref_name":  "Cytochrome P450 1A2",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "AC50":  1,
+                                                                         "IC50":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL5685",
+                                                  "target_pref_name":  "Solute carrier family 22 member 1",
+                                                  "n_records":  2,
+                                                  "activity_types":  {
+                                                                         "Inhibition":  1,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  19.6,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  2,
+                                                  "n_references":  2
+                                              }
+                                          ],
+                          "generated_at":  "2026-02-13 13:22:52"
+                      },
+    "snippets":  [
+                     {
+                         "sid":  "S1",
+                         "pmid":  "37328112",
+                         "title":  "Antidiabetic agents as a novel treatment for Alzheimer\u0027s and Parkinson\u0027s disease.",
+                         "year":  "2023",
+                         "journal":  "Ageing research reviews",
+                         "text":  "[S1] Title: Antidiabetic agents as a novel treatment for Alzheimer\u0027s and Parkinson\u0027s disease.\nYear: 2023 | Journal: Ageing research reviews | PMID: 37328112\nAbstract: Therapeutic strategies for neurodegenerative disorders have commonly targeted individual aspects of the disease pathogenesis to little success. Neurodegenerative diseases, including Alzheimer\u0027s disease (AD) and Parkinson\u0027s disease (PD), are characterized by several pathological features. In AD and PD, there is an abnormal accumulation of toxic proteins, increased inflammation, decreased synaptic function, neuronal loss, increased astrocyte activation, and perhaps a state of insulin resistance. Epidemiological evidence has revealed a link between AD/PD and type 2 diabetes mellitus, with these disorders sharing some pathological commonalities. Such a link has opened up a promising avenue for repurposing antidiabetic agents in the treatment of neurodegenerative disorders. A successful therapeutic strategy for AD/PD would likely require a single or several agents which target the separate...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37328112/"
+                     },
+                     {
+                         "sid":  "S2",
+                         "pmid":  "34291435",
+                         "title":  "Metformin activates chaperone-mediated autophagy and improves disease pathologies in an Alzheimer disease mouse model.",
+                         "year":  "2021",
+                         "journal":  "Protein \u0026 cell",
+                         "text":  "[S2] Title: Metformin activates chaperone-mediated autophagy and improves disease pathologies in an Alzheimer disease mouse model.\nYear: 2021 | Journal: Protein \u0026 cell | PMID: 34291435\nAbstract: Chaperone-mediated autophagy (CMA) is a lysosome-dependent selective degradation pathway implicated in the pathogenesis of cancer and neurodegenerative diseases. However, the mechanisms that regulate CMA are not fully understood. Here, using unbiased drug screening approaches, we discover Metformin, a drug that is commonly the first medication prescribed for type 2 diabetes, can induce CMA. We delineate the mechanism of CMA induction by Metformin to be via activation of TAK1-IKKÎ±/Î² signaling that leads to phosphorylation of Ser85 of the key mediator of CMA, Hsc70, and its activation. Notably, we find that amyloid-beta precursor protein (APP) is a CMA substrate and that it binds to Hsc70 in an IKKÎ±/Î²-dependent manner. The inhibition of CMA-mediated degradation of APP enhances its cytotoxicity. Importantly, we find that in the APP/PS1 mouse model of Alzheimer\u0027s disease (AD), activation of...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/34291435/"
+                     },
+                     {
+                         "sid":  "S3",
+                         "pmid":  "38642715",
+                         "title":  "Targeting dysregulated lipid metabolism for the treatment of Alzheimer\u0027s disease and Parkinson\u0027s disease: Current advancements and future prospects.",
+                         "year":  "2024",
+                         "journal":  "Neurobiology of disease",
+                         "text":  "[S3] Title: Targeting dysregulated lipid metabolism for the treatment of Alzheimer\u0027s disease and Parkinson\u0027s disease: Current advancements and future prospects.\nYear: 2024 | Journal: Neurobiology of disease | PMID: 38642715\nAbstract: Alzheimer\u0027s and Parkinson\u0027s diseases are two of the most frequent neurological diseases. The clinical features of AD are memory decline and cognitive dysfunction, while PD mainly manifests as motor dysfunction such as limb tremors, muscle rigidity abnormalities, and slow gait. Abnormalities in cholesterol, sphingolipid, and glycerophospholipid metabolism have been demonstrated to directly exacerbate the progression of AD by stimulating AÎ² deposition and tau protein tangles. Indirectly, abnormal lipids can increase the burden on brain vasculature, induce insulin resistance, and affect the structure of neuronal cell membranes. Abnormal lipid metabolism leads to PD through inducing accumulation of Î±-syn, dysfunction of mitochondria and endoplasmic reticulum, and ferroptosis. Great progress has been made in targeting lipid metabolism abnormalities for the treatment of AD and PD in recent...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/38642715/"
+                     },
+                     {
+                         "sid":  "S4",
+                         "pmid":  "37397787",
+                         "title":  "Metformin: A Review of Potential Mechanism and Therapeutic Utility Beyond Diabetes.",
+                         "year":  "2023",
+                         "journal":  "Drug design, development and therapy",
+                         "text":  "[S4] Title: Metformin: A Review of Potential Mechanism and Therapeutic Utility Beyond Diabetes.\nYear: 2023 | Journal: Drug design, development and therapy | PMID: 37397787\nAbstract: Metformin has been designated as one of the most crucial first-line therapeutic agents in the management of type 2 diabetes mellitus. Primarily being an antihyperglycemic agent, metformin also has a plethora of pleiotropic effects on various systems and processes. It acts majorly by activating AMPK (Adenosine Monophosphate-Activated Protein Kinase) in the cells and reducing glucose output from the liver. It also decreases advanced glycation end products and reactive oxygen species production in the endothelium apart from regulating the glucose and lipid metabolism in the cardiomyocytes, hence minimizing the cardiovascular risks. Its anticancer, antiproliferative and apoptosis-inducing effects on malignant cells might prove instrumental in the malignancy of organs like the breast, kidney, brain, ovary, lung, and endometrium. Preclinical studies have also shown some evidence of...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37397787/"
+                     },
+                     {
+                         "sid":  "S5",
+                         "pmid":  "38756263",
+                         "title":  "A Review of Recent Advances in the Management of Alzheimer\u0027s Disease.",
+                         "year":  "2024",
+                         "journal":  "Cureus",
+                         "text":  "[S5] Title: A Review of Recent Advances in the Management of Alzheimer\u0027s Disease.\nYear: 2024 | Journal: Cureus | PMID: 38756263\nAbstract: Alzheimer\u0027s disease (AD) is the most common neurodegenerative condition and a form of dementia encountered in medical practice. Despite many proposed and attempted treatments, this disease remains a major puzzle in the public health systems worldwide. The initial part of this article provides an overview and illustration of the primary mechanisms responsible for neuronal damage in AD. Subsequently, it offers a critical evaluation of the most noteworthy studies on pharmacological therapy for AD and outlines recent advancements and novel approaches to managing this condition. Main properties, categorization, Food and Drug Administration (FDA) status, mechanisms of action, benefits, and common side effects of the classical and the most recently proposed pharmacological treatments for AD are described. The conventional pharmacological agents revised comprise cholinesterase inhibitors,...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/38756263/"
+                     },
+                     {
+                         "sid":  "S6",
+                         "pmid":  "35572351",
+                         "title":  "Endophenotype-based in silico network medicine discovery combined with insurance record data mining identifies sildenafil as a candidate drug for Alzheimer\u0027s disease.",
+                         "year":  "2021",
+                         "journal":  "Nature aging",
+                         "text":  "[S6] Title: Endophenotype-based in silico network medicine discovery combined with insurance record data mining identifies sildenafil as a candidate drug for Alzheimer\u0027s disease.\nYear: 2021 | Journal: Nature aging | PMID: 35572351\nAbstract: We developed an endophenotype disease module-based methodology for Alzheimer\u0027s disease (AD) drug repurposing and identified sildenafil as a potential disease risk modifier. Based on retrospective case-control pharmacoepidemiologic analyses of insurance claims data for 7.23 million individuals, we found that sildenafil usage was significantly associated with a 69% reduced risk of AD (hazard ratio = 0.31, 95% confidence interval 0.25-0.39, P\u003c1.0Ã10-8). Propensity score stratified analyses confirmed that sildenafil is significantly associated with a decreased risk of AD across all four drug cohorts we tested (diltiazem, glimepiride, losartan and metformin) after adjusting age, sex, race, and disease comorbidities. We also found that sildenafil increases neurite growth and decreases phospho-tau expression in AD patient-induced pluripotent stem cells-derived neuron models, supporting...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/35572351/"
+                     },
+                     {
+                         "sid":  "S7",
+                         "pmid":  "40634935",
+                         "title":  "Liver-specific expression of ANGPTL8 promotes Alzheimer\u0027s disease progression through activating microglial pyroptosis.",
+                         "year":  "2025",
+                         "journal":  "Journal of neuroinflammation",
+                         "text":  "[S7] Title: Liver-specific expression of ANGPTL8 promotes Alzheimer\u0027s disease progression through activating microglial pyroptosis.\nYear: 2025 | Journal: Journal of neuroinflammation | PMID: 40634935\nAbstract: INTRODUCTION: Liver dysfunction contributes to Alzheimer\u0027s disease (AD) pathogenesis, and evidence suggests that the liver is involved in amyloid Î² (AÎ²) clearance, and regulates AÎ² deposition in the brain. However, the specific regulatory mechanism remains elusive. OBJECTIVES: Angiopoietin-like protein 8Â (ANGPTL8), a high expression of liver-specific secreted proinflammatory factor, crosses the bloodâbrain barrier from the bloodstream to abnormally activate microglia and promote AD progression. METHODS: The ANGPTL8-/- mice and 5âÃâFAD mice were crossed mutated and subjected to the Morris water maze test and novel object recognition test to assess cognitive ability in different cohorts. Thioflavin-S, NeuN, and Nissl staining were used to assess AÎ² deposition and neuron loss. The number of phagocytic microglia was evaluated with Fitc latex beads. Adeno-associated virus 8 (AAV8)...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/40634935/"
+                     },
+                     {
+                         "sid":  "S8",
+                         "pmid":  "35903083",
+                         "title":  "Pathobiology of the Klotho Antiaging Protein and Therapeutic Considerations.",
+                         "year":  "2022",
+                         "journal":  "Frontiers in aging",
+                         "text":  "[S8] Title: Pathobiology of the Klotho Antiaging Protein and Therapeutic Considerations.\nYear: 2022 | Journal: Frontiers in aging | PMID: 35903083\nAbstract: The Î±-Klotho protein (henceforth denoted Klotho) has antiaging properties, as first observed in mice homozygous for a hypomorphic Klotho gene (kl/kl). These mice have a shortened lifespan, stunted growth, renal disease, hyperphosphatemia, hypercalcemia, vascular calcification, cardiac hypertrophy, hypertension, pulmonary disease, cognitive impairment, multi-organ atrophy and fibrosis. Overexpression of Klotho has opposite effects, extending lifespan. In humans, Klotho levels decline with age, chronic kidney disease, diabetes, Alzheimer\u0027s disease and other conditions. Low Klotho levels correlate with an increase in the death rate from all causes. Klotho acts either as an obligate coreceptor for fibroblast growth factor 23 (FGF23), or as a soluble pleiotropic endocrine hormone (s-Klotho). It is mainly produced in the kidneys, but also in the brain, pancreas and other tissues. On renal...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/35903083/"
+                     },
+                     {
+                         "sid":  "S9",
+                         "pmid":  "40552638",
+                         "title":  "Associations of semaglutide with Alzheimer\u0027s disease-related dementias in patients with type 2 diabetes: A real-world target trial emulation study.",
+                         "year":  "2025",
+                         "journal":  "Journal of Alzheimer\u0027s disease : JAD",
+                         "text":  "[S9] Title: Associations of semaglutide with Alzheimer\u0027s disease-related dementias in patients with type 2 diabetes: A real-world target trial emulation study.\nYear: 2025 | Journal: Journal of Alzheimer\u0027s disease : JAD | PMID: 40552638\nAbstract: BackgroundAlmost half of the dementia cases are preventable. Semaglutide treats several medical conditions that are risk factors for dementia.ObjectiveWe aim to investigate if semaglutide is associated with a decreased risk of dementia.MethodsWe conducted emulation target trials based on a nationwide population-based database of patient electronic health records (EHRs) in the US among 1,710,995 eligible patients with type 2 diabetes (T2D) comparing semaglutide with other antidiabetic medications. First-time diagnosis of Alzheimer\u0027s disease-related dementia (ADRD) including vascular dementia, frontotemporal dementia, Lewy body dementia and other dementias were examined using Cox proportional hazards and Kaplan-Meier survival analyses during a 3-year follow-up. Models were adjusted by propensity-score matching.ResultsWe show that semaglutide was associated with a significantly reduced...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/40552638/"
+                     },
+                     {
+                         "sid":  "S10",
+                         "pmid":  "36849855",
+                         "title":  "Long-term use of metformin and Alzheimer\u0027s disease: beneficial or detrimental effects.",
+                         "year":  "2023",
+                         "journal":  "Inflammopharmacology",
+                         "text":  "[S10] Title: Long-term use of metformin and Alzheimer\u0027s disease: beneficial or detrimental effects.\nYear: 2023 | Journal: Inflammopharmacology | PMID: 36849855\nAbstract: Alzheimer\u0027s disease (AD) is the most common neurodegenerative disease characterized by extracellular deposition of amyloid beta (AÎ²) leading to cognitive decline. Evidence from epidemiological studies has shown the association between type 2 diabetes mellitus (T2DM) and the development of AD. T2DM and peripheral insulin resistance (IR) augment the risk of AD with the development of brain IR with inhibition of neuronal insulin receptors. These changes impair clearance of AÎ², increase secretion of AÎ²1-42, reduce brain glucose metabolism, and abnormal deposition of AÎ² plaques. Insulin-sensitizing drug metformin inhibits aggregation of AÎ² by increasing the activity of the insulin-degrading enzyme (IDE) and neprilysin (NEP) levels. Additionally, different studies raised conflicting evidence concerning long-term metformin therapy in T2DM patients, as it may increase the risk of AD or it may...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/36849855/"
+                     }
+                 ],
+    "report":  "## Research Report: Metformin in Alzheimer\u0027s Disease\n\n**1) Question:** Does metformin have beneficial or detrimental effects on Alzheimer\u0027s Disease?\n\n**2) Evidence Summary:**\n\n- Epidemiological studies suggest a link between type 2 diabetes mellitus (T2DM) and the development of Alzheimer\u0027s disease (AD), with shared pathological commonalities. [S1]\n- Metformin, a commonly prescribed antihyperglycemic agent for T2DM, has been shown to potentially impact AD progression. [S1]\n- Metformin may benefit AD by inhibiting amyloid beta (AÎ²) aggregation through increased activity of IDE and NEP, leading to enhanced AÎ² clearance. [S10]\n- Studies investigating the long-term effects of metformin on AD have yielded conflicting results, with some suggesting a potential increase in AD risk while others indicate potential benefits. [S10]\n- A real-world target trial emulation study using electronic health records of patients with type 2 diabetes in the US showed that semaglutide was associated with a significantly reduced risk of Alzheimer\u0027s disease-related dementia. [S9] \n\n**3) Biological Rationale:**\n\n- Metformin primarily activates AMPK, which has downstream effects on glucose metabolism and may influence cellular processes relevant to AD pathogenesis. [S4]\n- Metformin reduces AÎ² aggregation by increasing IDE and NEP activity, ultimately promoting AÎ² clearance from the brain. [S10]\n- Metformin may reduce inflammation and oxidative stress, both of which contribute to neuronal damage in AD. [S4]\n\n**4) Contradictions / Gaps:**\n\n- Conflicting evidence exists regarding the long-term effects of metformin on AD risk, requiring further investigation. [S10]\n- Insufficient evidence in provided snippets. + [S4]\n\n**5) Uncertainty \u0026 Limitations:**\n\n- Insufficient evidence in provided snippets. + [S10]\n- Insufficient evidence in provided snippets. + [S10]\n- Insufficient evidence in provided snippets. + [S10]\n\n**6) Safety Note:**\n\nThis report is for informational purposes only and does not constitute medical advice. It is crucial to consult with a qualified healthcare professional for any health concerns or before making any decisions related to your health or treatment. ",
+    "trust_score":  100.0,
+    "metrics":  {
+                    "n_bullets":  13,
+                    "n_missing_citations":  4,
+                    "coverage_pct":  69.23,
+                    "bad_reference_nums":  [
+
+                                           ],
+                    "missing_examples":  [
+                                             "- The exact mechanisms by which metformin influences AD progression are not fully understood and require further research.",
+                                             "- Evidence regarding the long-term impact of metformin on AD is limited and inconclusive.",
+                                             "- The studies available vary in their methodologies and populations, making it difficult to draw definitive conclusions.",
+                                             "- While some evidence suggests potential benefits of metformin in AD, further research is needed to confirm these findings and establish optimal treatment strategies."
+                                         ]
+                },
+    "sources":  [
+                    {
+                        "sid":  "S1",
+                        "pmid":  "37328112",
+                        "title":  "Antidiabetic agents as a novel treatment for Alzheimer\u0027s and Parkinson\u0027s disease."
+                    },
+                    {
+                        "sid":  "S2",
+                        "pmid":  "34291435",
+                        "title":  "Metformin activates chaperone-mediated autophagy and improves disease pathologies in an Alzheimer disease mouse model."
+                    },
+                    {
+                        "sid":  "S3",
+                        "pmid":  "38642715",
+                        "title":  "Targeting dysregulated lipid metabolism for the treatment of Alzheimer\u0027s disease and Parkinson\u0027s disease: Current advancements and future prospects."
+                    },
+                    {
+                        "sid":  "S4",
+                        "pmid":  "37397787",
+                        "title":  "Metformin: A Review of Potential Mechanism and Therapeutic Utility Beyond Diabetes."
+                    },
+                    {
+                        "sid":  "S5",
+                        "pmid":  "38756263",
+                        "title":  "A Review of Recent Advances in the Management of Alzheimer\u0027s Disease."
+                    },
+                    {
+                        "sid":  "S6",
+                        "pmid":  "35572351",
+                        "title":  "Endophenotype-based in silico network medicine discovery combined with insurance record data mining identifies sildenafil as a candidate drug for Alzheimer\u0027s disease."
+                    },
+                    {
+                        "sid":  "S7",
+                        "pmid":  "40634935",
+                        "title":  "Liver-specific expression of ANGPTL8 promotes Alzheimer\u0027s disease progression through activating microglial pyroptosis."
+                    },
+                    {
+                        "sid":  "S8",
+                        "pmid":  "35903083",
+                        "title":  "Pathobiology of the Klotho Antiaging Protein and Therapeutic Considerations."
+                    },
+                    {
+                        "sid":  "S9",
+                        "pmid":  "40552638",
+                        "title":  "Associations of semaglutide with Alzheimer\u0027s disease-related dementias in patients with type 2 diabetes: A real-world target trial emulation study."
+                    },
+                    {
+                        "sid":  "S10",
+                        "pmid":  "36849855",
+                        "title":  "Long-term use of metformin and Alzheimer\u0027s disease: beneficial or detrimental effects."
+                    }
+                ],
+    "metrics_all":  {
+                        "n_bullets":  13,
+                        "n_missing_citations":  0,
+                        "coverage_pct":  100.0,
+                        "bad_reference_nums":  [
+
+                                               ],
+                        "missing_examples":  [
+
+                                             ]
+                    },
+    "agentic_used":  true,
+    "agentic_attempts":  1,
+    "metrics_sec2":  {
+                         "n_bullets":  5,
+                         "n_missing_citations":  0,
+                         "coverage_pct":  100.0,
+                         "bad_reference_nums":  [
+
+                                                ],
+                         "missing_examples":  [
+
+                                              ]
+                     },
+    "n_rewritten_to_insufficient":  4,
+    "report_path":  "/app/reports/Metformin__Alzheimer\u0027s_disease__20260213_132335.md"
+}
