@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    image: medgemma-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      API_KEY: dev123
+      REPORTS_DIR: /app/reports
+      LMSTUDIO_URL: http://host.docker.internal:1234/v1/chat/completions
+      LMSTUDIO_MODEL: txgemma-9b-chat
+    volumes:
+      - ./reports:/app/reports
