@@ -1,0 +1,1360 @@
+﻿{
+    "metadata":  {
+                     "disease":  "Alzheimer Disease",
+                     "drug":  "Donepezil",
+                     "chembl_id":  "CHEMBL502",
+                     "chembl_match_reason":  "exact",
+                     "chembl_preferred_name":  "DONEPEZIL"
+                 },
+    "molecule_pack":  {
+                          "molecule_chembl_id":  "CHEMBL502",
+                          "preferred_name":  "DONEPEZIL",
+                          "molecule_type":  "Small molecule",
+                          "canonical_smiles":  "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+                          "standard_inchi":  "InChI=1S/C24H29NO3/c1-27-22-14-19-13-20(24(26)21(19)15-23(22)28-2)12-17-8-10-25(11-9-17)16-18-6-4-3-5-7-18/h3-7,14-15,17,20H,8-13,16H2,1-2H3",
+                          "n_activity_records_fetched":  400,
+                          "top_targets":  [
+                                              {
+                                                  "target_chembl_id":  "CHEMBL220",
+                                                  "target_pref_name":  "Acetylcholinesterase",
+                                                  "n_records":  62,
+                                                  "activity_types":  {
+                                                                         "IC50":  46,
+                                                                         "Inhibition":  10,
+                                                                         "Ki":  4,
+                                                                         "EC50":  1,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  60,
+                                                                          "\u003e":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2.33,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  16.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  40.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  16.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7.998,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  22.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ki",
+                                                                             "value":  20.5,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  61,
+                                                  "n_references":  46
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612545",
+                                                  "target_pref_name":  "Unchecked",
+                                                  "n_records":  45,
+                                                  "activity_types":  {
+                                                                         "Ratio IC50":  23,
+                                                                         "IC50":  3,
+                                                                         "Inhibition":  3,
+                                                                         "Ratio":  2,
+                                                                         "Activity":  2,
+                                                                         "Potency":  1,
+                                                                         "Hepatotoxicity (acute)":  1,
+                                                                         "Hepatotoxicity (cytolytic)":  1,
+                                                                         "Hepatotoxicity (choleostasis)":  1,
+                                                                         "Hepatotoxicity (severe hepatitis)":  1,
+                                                                         "Hepatotoxicity (chronic liver disease)":  1,
+                                                                         "Hepatotoxicity (cirrhosis)":  1,
+                                                                         "Hepatotoxicity (association with vascular disease)":  1,
+                                                                         "Hepatotoxicity (steatosis)":  1,
+                                                                         "Hepatotoxicity (malignant tumour)":  1,
+                                                                         "Hepatotoxicity (successful reintroduction)":  1,
+                                                                         "Hepatotoxicity (comment)":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "microM/min",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  38,
+                                                                          "\u003c":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  510.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  126.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  86500.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  121.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  371.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  5.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  62700.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  0.02,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Potency",
+                                                                             "value":  40533.4,
+                                                                             "units":  "nM",
+                                                                             "relation":  ""
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  45,
+                                                  "n_references":  26
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL4078",
+                                                  "target_pref_name":  "Acetylcholinesterase",
+                                                  "n_records":  33,
+                                                  "activity_types":  {
+                                                                         "IC50":  27,
+                                                                         "Inhibition":  5,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  33
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  9.2,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  48.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  17.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  0.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  0.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  110.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  120.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  13.4,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  6.7,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  6.7,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  32,
+                                                  "n_references":  27
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1914",
+                                                  "target_pref_name":  "Cholinesterase",
+                                                  "n_records":  27,
+                                                  "activity_types":  {
+                                                                         "IC50":  26,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  27
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8200.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8200.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  4150.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7420.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  4150.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  4150.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7585.78,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  10050.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7420.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  27,
+                                                  "n_references":  26
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3199",
+                                                  "target_pref_name":  "Acetylcholinesterase",
+                                                  "n_records":  22,
+                                                  "activity_types":  {
+                                                                         "IC50":  19,
+                                                                         "Activity":  2,
+                                                                         "Inhibition":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  20
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.7,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  5.7,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  20.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  16.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  40.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  26.8,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  12.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  5.7,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  35.48,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7.86,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  21,
+                                                  "n_references":  19
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3879801",
+                                                  "target_pref_name":  "NON-PROTEIN TARGET",
+                                                  "n_records":  21,
+                                                  "activity_types":  {
+                                                                         "Activity":  11,
+                                                                         "Hepatotoxicity (moderate)":  2,
+                                                                         "Ratio":  1,
+                                                                         "Hepatotoxicity (acute)":  1,
+                                                                         "Hepatotoxicity (granulomatous hepatitis)":  1,
+                                                                         "Hepatotoxicity (benign tumour)":  1,
+                                                                         "Hepatotoxicity (animal toxicity known)":  1,
+                                                                         "Hepatotoxicity (time to onset)":  1,
+                                                                         "Hepatotoxicity (mechanism)":  1,
+                                                                         "Fu":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  17
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  0.04,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  70.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  43.6,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  69.5,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  63.2,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  64.2,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  58.3,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  67.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  48.7,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  65.3,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  21,
+                                                  "n_references":  4
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL376",
+                                                  "target_pref_name":  "Rattus norvegicus",
+                                                  "n_records":  19,
+                                                  "activity_types":  {
+                                                                         "TIME":  12,
+                                                                         "Activity":  7
+                                                                     },
+                                                  "units":  [
+                                                                "hr",
+                                                                "mol/min"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  18
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01514,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01574,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01736,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01815,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01046,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01086,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01199,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01254,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  30.86,
+                                                                             "units":  "mol/min",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  32.38,
+                                                                             "units":  "mol/min",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  19,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL5763",
+                                                  "target_pref_name":  "Cholinesterase",
+                                                  "n_records":  17,
+                                                  "activity_types":  {
+                                                                         "IC50":  17
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  17
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2700.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  840.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7400.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  4660.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3600.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  5380.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  5380.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3365.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3490.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  17,
+                                                  "n_references":  17
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL375",
+                                                  "target_pref_name":  "Mus musculus",
+                                                  "n_records":  16,
+                                                  "activity_types":  {
+                                                                         "Activity":  11,
+                                                                         "TIME":  4,
+                                                                         "ED50":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "hr",
+                                                                "mg.kg-1",
+                                                                "s"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  8
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  14.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  1.9,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  75.0,
+                                                                             "units":  "s",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  134.42,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.02356,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01461,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.01461,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TIME",
+                                                                             "value":  0.02356,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  16,
+                                                  "n_references":  8
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1697861",
+                                                  "target_pref_name":  "Hepatotoxicity",
+                                                  "n_records":  16,
+                                                  "activity_types":  {
+                                                                         "Hepatotoxicity":  2,
+                                                                         "HepSE_bilirubinemia":  1,
+                                                                         "HepSE_cholecystitis":  1,
+                                                                         "HepSE_cholelithiasis":  1,
+                                                                         "HepSE_cirrhosis":  1,
+                                                                         "HepSE_elevated liver function tests":  1,
+                                                                         "HepSE_hepatic failure":  1,
+                                                                         "HepSE_hepatic necrosis":  1,
+                                                                         "HepSE_hepatitis":  1,
+                                                                         "HepSE_hepatomegaly":  1,
+                                                                         "HepSE_jaundice":  1,
+                                                                         "HepSE_liver disease":  1,
+                                                                         "HepSE_liver fatty":  1,
+                                                                         "HepSE_liver function tests abnormal":  1,
+                                                                         "HepSE_Combined Scores":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  14
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "HepSE_bilirubinemia",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_cholecystitis",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_cholelithiasis",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_cirrhosis",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_elevated liver function tests",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_hepatic failure",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_hepatic necrosis",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_hepatitis",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_hepatomegaly",
+                                                                             "value":  0.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "HepSE_jaundice",
+                                                                             "value":  1.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  16,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2095233",
+                                                  "target_pref_name":  "Cholinesterases; ACHE \u0026 BCHE",
+                                                  "n_records":  9,
+                                                  "activity_types":  {
+                                                                         "Ratio IC50":  4,
+                                                                         "Ratio":  2,
+                                                                         "IC50 ratio":  1,
+                                                                         "Selectivity":  1,
+                                                                         "Ratio pIC50":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  9
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50 ratio",
+                                                                             "value":  510.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Selectivity",
+                                                                             "value":  188.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  360.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  1252.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  188.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio pIC50",
+                                                                             "value":  331.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  371.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  321.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  250.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  9,
+                                                  "n_references":  9
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3403",
+                                                  "target_pref_name":  "Butyrylcholinesterase",
+                                                  "n_records":  9,
+                                                  "activity_types":  {
+                                                                         "IC50":  9
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  9
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7138.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7600.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  5300.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3260.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2770.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  7138.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  4670.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  20700.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1280.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  9,
+                                                  "n_references":  9
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL340",
+                                                  "target_pref_name":  "Cytochrome P450 3A4",
+                                                  "n_records":  9,
+                                                  "activity_types":  {
+                                                                         "Inhibition":  8,
+                                                                         "IC50":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  7
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  27.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  8.1,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  22.2,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  68.4,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  83.9,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  87.3,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  54680.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  9,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2362975",
+                                                  "target_pref_name":  "No relevant target",
+                                                  "n_records":  7,
+                                                  "activity_types":  {
+                                                                         "pKa":  3,
+                                                                         "Activity":  2,
+                                                                         "Solubility":  1,
+                                                                         "LogD7.4":  1
+                                                                     },
+                                                  "units":  [
+                                                                "microM/min",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  3
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  9.08,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Solubility",
+                                                                             "value":  429000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  9.0,
+                                                                             "units":  "",
+                                                                             "relation":  ""
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  9.08,
+                                                                             "units":  "",
+                                                                             "relation":  ""
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  46.1,
+                                                                             "units":  "microM/min",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogD7.4",
+                                                                             "value":  2.41,
+                                                                             "units":  "",
+                                                                             "relation":  ""
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  7,
+                                                  "n_references":  6
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL395",
+                                                  "target_pref_name":  "HepG2",
+                                                  "n_records":  7,
+                                                  "activity_types":  {
+                                                                         "Activity":  7
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  7
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  40.9,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  53.4,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  80.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  83.5,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  92.4,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  97.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  98.6,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  7,
+                                                  "n_references":  1
+                                              }
+                                          ],
+                          "generated_at":  "2026-02-13 11:14:38"
+                      },
+    "snippets":  [
+                     {
+                         "sid":  "S1",
+                         "pmid":  "39283851",
+                         "title":  "Alzheimer Disease: Treatment of Cognitive and Functional Symptoms.",
+                         "year":  "2024",
+                         "journal":  "American family physician",
+                         "text":  "[S1] Title: Alzheimer Disease: Treatment of Cognitive and Functional Symptoms.\nYear: 2024 | Journal: American family physician | PMID: 39283851\nAbstract: Alzheimer disease is a progressive, neurodegenerative disorder characterized by the accumulation of amyloid beta plaques and hyperphosphorylated tau proteins. Alzheimer disease affects cognitive function, leading to memory loss and impairment in activities of daily living. Approximately 6.9 million people in the United States 65 years and older live with Alzheimer disease, a number expected to double by 2060. Although there is no cure for Alzheimer disease, treatments are available to manage symptoms. Tools such as the Diagnostic and Statistical Manual of Mental Disorders, 5th ed., criteria aid in identifying major neurocognitive disorders. The evaluation involves a comprehensive medical history, cognitive examinations, and collateral information. Nonpharmacologic interventions focus on psychosocial approaches, with music, sensory stimulation, and validation therapies showing some...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/39283851/"
+                     },
+                     {
+                         "sid":  "S2",
+                         "pmid":  "31638686",
+                         "title":  "Diagnosis and Management of Dementia: Review.",
+                         "year":  "2019",
+                         "journal":  "JAMA",
+                         "text":  "[S2] Title: Diagnosis and Management of Dementia: Review.\nYear: 2019 | Journal: JAMA | PMID: 31638686\nAbstract: IMPORTANCE: Worldwide, 47 million people live with dementia and, by 2050, the number is expected to increase to 131 million. OBSERVATIONS: Dementia is an acquired loss of cognition in multiple cognitive domains sufficiently severe to affect social or occupational function. In the United States, Alzheimer disease, one cause of dementia, affects 5.8 million people. Dementia is commonly associated with more than 1 neuropathology, usually Alzheimer disease with cerebrovascular pathology. Diagnosing dementia requires a history evaluating for cognitive decline and impairment in daily activities, with corroboration from a close friend or family member, in addition to a thorough mental status examination by a clinician to delineate impairments in memory, language, attention, visuospatial cognition such as spatial orientation, executive function, and mood. Brief cognitive impairment screening...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/31638686/"
+                     },
+                     {
+                         "sid":  "S3",
+                         "pmid":  "37358841",
+                         "title":  "Cholinesterase Inhibitors for Treatment of Psychotic Symptoms in Alzheimer Disease and Parkinson Disease: A Meta-analysis.",
+                         "year":  "2023",
+                         "journal":  "JAMA neurology",
+                         "text":  "[S3] Title: Cholinesterase Inhibitors for Treatment of Psychotic Symptoms in Alzheimer Disease and Parkinson Disease: A Meta-analysis.\nYear: 2023 | Journal: JAMA neurology | PMID: 37358841\nAbstract: IMPORTANCE: Psychotic symptoms greatly increase the burden of disease for people with neurodegenerative disorders and their caregivers. Cholinesterase inhibitors (ChEIs) may be effective treatment for psychotic symptoms in these disorders. Previous trials only evaluated neuropsychiatric symptoms as a secondary and an overall outcome, potentially blurring the outcomes noted with ChEI use specifically for psychotic symptoms. OBJECTIVE: To quantitatively assess the use of ChEIs for treatment of individual neuropsychiatric symptoms, specifically hallucinations and delusions, in patients with Alzheimer disease (AD), Parkinson disease (PD), and dementia with Lewy bodies (DLB). DATA SOURCES: A systematic search was performed in PubMed (MEDLINE), Embase, and PsychInfo, without year restrictions. Additional eligible studies were retrieved from reference lists. The final search cutoff date was...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37358841/"
+                     },
+                     {
+                         "sid":  "S4",
+                         "pmid":  "32914577",
+                         "title":  "Memantine, Donepezil, or Combination Therapy-What is the best therapy for Alzheimer\u0027s Disease? A Network Meta-Analysis.",
+                         "year":  "2020",
+                         "journal":  "Brain and behavior",
+                         "text":  "[S4] Title: Memantine, Donepezil, or Combination Therapy-What is the best therapy for Alzheimer\u0027s Disease? A Network Meta-Analysis.\nYear: 2020 | Journal: Brain and behavior | PMID: 32914577\nAbstract: INTRODUCTION: Alzheimer\u0027s disease (AD) is a degenerative brain disease that progresses over time, heavily burdening patients, families, and aging societies worldwide. Memantine and donepezil are frequently used in its treatment, both as monotherapy and in combination. This multiple treatment comparison meta-analysis assessed the efficacy of these regimens and placebo in the management of AD. METHODS: We searched PubMed, Embase, the Cochrane Library, and Wanfang Med Online and China National Knowledge Infrastructure for English and Chinese publications from the first records to 17 April 2020. Two investigators scanned articles for placebo-controlled trials of memantine and donepezil alone and in combination. We extracted data on the following outcomes: cognition, global assessment, daily activities, neuropsychiatric symptoms, adverse events, and the acceptability and cost of these...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/32914577/"
+                     },
+                     {
+                         "sid":  "S5",
+                         "pmid":  "32941929",
+                         "title":  "Alzheimer\u0027s disease: Recent treatment strategies.",
+                         "year":  "2020",
+                         "journal":  "European journal of pharmacology",
+                         "text":  "[S5] Title: Alzheimer\u0027s disease: Recent treatment strategies.\nYear: 2020 | Journal: European journal of pharmacology | PMID: 32941929\nAbstract: Alzheimer Disease (AD) is a neurodegenerative disease characterized by two neuropathological hallmarks: extracellular deposition of amyloid plaques and intracellular neurofibrillary tangles. Current treatment for AD (donepezil, galantamine, rivastigmine and memantine) is only symptomatic and has modest benefits. Thus, the development of drugs with the potential to change the progression of the disease has been a priority. Therapies targeting amyloid Î² have been the focus for almost 30 years. However, highly promising drugs recently failed to show clinical benefits in phase III trials. Even the positive findings presented by Biogen on Aducanumab are not entirely clear and further data is necessary to confirm its validity. Therefore, researchers are turning their efforts around to tau-targeting therapies, since tau protein appears to be better correlated with the severity of cognitive...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/32941929/"
+                     },
+                     {
+                         "sid":  "S6",
+                         "pmid":  "14734594",
+                         "title":  "Memantine treatment in patients with moderate to severe Alzheimer disease already receiving donepezil: a randomized controlled trial.",
+                         "year":  "2004",
+                         "journal":  "JAMA",
+                         "text":  "[S6] Title: Memantine treatment in patients with moderate to severe Alzheimer disease already receiving donepezil: a randomized controlled trial.\nYear: 2004 | Journal: JAMA | PMID: 14734594\nAbstract: CONTEXT: Memantine is a low- to moderate-affinity, uncompetitive N-methyl-D-aspartate receptor antagonist. Controlled trials have demonstrated the safety and efficacy of memantine monotherapy for patients with moderate to severe Alzheimer disease (AD) but no controlled trials of memantine in patients receiving a cholinesterase inhibitor have been performed. OBJECTIVE: To compare the efficacy and safety of memantine vs placebo in patients with moderate to severe AD already receiving stable treatment with donepezil. DESIGN, SETTING, AND PARTICIPANTS: A randomized, double-blind, placebo-controlled clinical trial of 404 patients with moderate to severe AD and Mini-Mental State Examination scores of 5 to 14, who received stable doses of donepezil, conducted at 37 US sites between June 11, 2001, and June 3, 2002. A total of 322 patients (80%) completed the trial. INTERVENTIONS: Participants...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/14734594/"
+                     },
+                     {
+                         "sid":  "S7",
+                         "pmid":  "38484213",
+                         "title":  "Lecanemab Questions.",
+                         "year":  "2024",
+                         "journal":  "Neurology",
+                         "text":  "[S7] Title: Lecanemab Questions.\nYear: 2024 | Journal: Neurology | PMID: 38484213\nAbstract: The recently published results of the 18-month randomized controlled trial of lecanemab, reporting the efficacy of the drug in slowing the progression of early Alzheimer disease, quickly led to approval by the FDA and widespread acceptance of lecanemab treatment. However, there are a number of matters that deserve further consideration. The success of blinding was not assessed, even as infusion reactions and the cerebral pathology underlying amyloid-related imaging abnormalities could have signaled to many participants that they were on drug, potentially exerting a potent placebo effect. The value of the outcome to participants is not defined in the absolute terms necessary for clinical decision-making, and the difference attributable to lecanemab was between 18% and 46% of estimates of the minimal clinically important difference on the Clinical Dementia Rating Scale Sum of Boxes. The...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/38484213/"
+                     },
+                     {
+                         "sid":  "S8",
+                         "pmid":  "10534086",
+                         "title":  "Diagnosis and management of Alzheimer disease.",
+                         "year":  "1999",
+                         "journal":  "The Journal of the American Board of Family Practice",
+                         "text":  "[S8] Title: Diagnosis and management of Alzheimer disease.\nYear: 1999 | Journal: The Journal of the American Board of Family Practice | PMID: 10534086\nAbstract: BACKGROUND: Alzheimer disease afflicts millions of older Americans, with an estimated cost to society approaching $100 million annually. Family physicians will care for an increasing number of patients with Alzheimer disease as well as their caregivers and families. METHODS: A comprehensive and systematic review of the literature published between 1985 and 1998 about diagnosing and treating Alzheimer disease was conducted, using \"dementia,\" \"Alzheimer\u0027s disease,\" and \"treatment\" as search strategy key words. Data and information that reported significant conclusions were critically reviewed. Potentially important new data about new agents that might be of benefit when caring for patients with Alzheimer disease are discussed. RESULTS AND CONCLUSIONS: The primary goals when treating Alzheimer disease patients are enhancing autonomy and functional abilities and maintaining quality of life...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/10534086/"
+                     },
+                     {
+                         "sid":  "S9",
+                         "pmid":  "32679025",
+                         "title":  "Current Strategies and Novel Drug Approaches for Alzheimer Disease.",
+                         "year":  "2020",
+                         "journal":  "CNS \u0026 neurological disorders drug targets",
+                         "text":  "[S9] Title: Current Strategies and Novel Drug Approaches for Alzheimer Disease.\nYear: 2020 | Journal: CNS \u0026 neurological disorders drug targets | PMID: 32679025\nAbstract: Alzheimer\u0027s Disease (AD) is a chronic, devastating dysfunction of neurons in the brain leading to dementia. It mainly arises due to neuronal injury in the cerebral cortex and hippocampus area of the brain and is clinically manifested as a progressive mental failure, disordered cognitive functions, personality changes, reduced verbal fluency and impairment of speech. The pathology behind AD is the formation of intraneuronal fibrillary tangles, deposition of amyloid plaque and decline in choline acetyltransferase and loss of cholinergic neurons. Tragically, the disease cannot be cured, but its progression can be halted. Various cholinesterase inhibitors available in the market like Tacrine, Donepezil, Galantamine, Rivastigmine, etc. are being used to manage the symptoms of Alzheimer\u0027s disease. The paper\u0027s objective is to throw light not only on the cellular/genetic basis of the disease,...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/32679025/"
+                     },
+                     {
+                         "sid":  "S10",
+                         "pmid":  "9475825",
+                         "title":  "Donepezil use in Alzheimer disease.",
+                         "year":  "1998",
+                         "journal":  "The Annals of pharmacotherapy",
+                         "text":  "[S10] Title: Donepezil use in Alzheimer disease.\nYear: 1998 | Journal: The Annals of pharmacotherapy | PMID: 9475825\nAbstract: OBJECTIVE: To review the pharmacology, pharmacokinetics, clinical efficacy, adverse effects, drug-drug interactions, and the therapeutic issues concerning the use of donepezil in patients with Alzheimer disease. DATA SOURCES: Published articles and abstracts in English were identified by MEDLINE (January 1985-July 1997) searches using the search terms donepezil, E2020, treatment of Alzheimer\u0027s disease, and cholinesterase inhibitors. Additional articles were identified from the bibliographies of the retrieved articles. Data were also obtained from approved product labeling. DATA EXTRACTION: The literature was assessed for adequate description of patients, methodology, and outcomes. DATA SYNTHESIS: Donepezil is a cholinesterase inhibitor that is selective and specific for acetylcholinesterase. It is metabolized by hepatic isoenzymes CYP2D6 and CYP3A4 and undergoes glucuronidation....",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/9475825/"
+                     }
+                 ],
+    "report":  "## Research Report: Donepezil in Alzheimer Disease\n\n**1) Question:** What is the role of Donepezil in the treatment of Alzheimer disease?\n\n**2) Evidence Summary:**\n\n- Donepezil is a cholinesterase inhibitor that selectively and specifically targets acetylcholinesterase [S10]. \n- It is metabolized by the hepatic isoenzymes CYP2D6 and CYP3A4, and undergoes glucuronidation [S10].\n- Donepezil has been shown to be effective in slowing the progression of mild to moderate Alzheimer\u0027s disease [S1]. \n- While it is not a cure for Alzheimer\u0027s disease, Donepezil can help manage symptoms and improve cognitive function [S1][S2].\n- Donepezil is often used in combination with other medications, such as memantine, to provide a more comprehensive approach to treatment [S4].\n\n**3) Biological Rationale:**\n\n- Alzheimer\u0027s disease is characterized by a loss of acetylcholine (ACh) in the brain due to the inhibition of acetylcholinesterase, an enzyme responsible for ACh breakdown [S9].\n- Donepezil, by inhibiting acetylcholinesterase, increases the levels of ACh in the brain [S10]. \n- This increase in ACh can help improve cognitive function and memory in Alzheimer\u0027s patients [S1].\n\n**4) Contradictions / Gaps:**\n\n-  While Donepezil has shown some benefit in slowing cognitive decline, the magnitude of this effect is modest and varies between individuals [S1][S4].\n-  Long-term use of Donepezil can lead to side effects such as nausea, vomiting, and weight loss [S10].\n-  There is limited evidence on the long-term safety and efficacy of Donepezil in Alzheimer\u0027s disease [S2].\n\n**5) Uncertainty \u0026 Limitations:**\n\n- Evidence quality varies across snippets, with some being observational studies and others being randomized controlled trials [S1][S2][S6].\n- Snippets primarily focus on the efficacy of Donepezil as a monotherapy, with less information available on its use in combination with other medications [S4].\n- Abstract summaries may not fully represent the findings of original research articles [S2].\n\n**6) Safety Note:**\n\nThis report is for informational purposes only and should not be considered medical advice. Donepezil is a prescription medication, and its use should be discussed with a qualified healthcare professional. \n",
+    "trust_score":  100.0,
+    "metrics":  {
+                    "n_bullets":  14,
+                    "n_missing_citations":  0,
+                    "coverage_pct":  100.0,
+                    "bad_reference_nums":  [
+
+                                           ],
+                    "missing_examples":  [
+
+                                         ]
+                },
+    "sources":  [
+                    {
+                        "sid":  "S1",
+                        "pmid":  "39283851",
+                        "title":  "Alzheimer Disease: Treatment of Cognitive and Functional Symptoms."
+                    },
+                    {
+                        "sid":  "S2",
+                        "pmid":  "31638686",
+                        "title":  "Diagnosis and Management of Dementia: Review."
+                    },
+                    {
+                        "sid":  "S3",
+                        "pmid":  "37358841",
+                        "title":  "Cholinesterase Inhibitors for Treatment of Psychotic Symptoms in Alzheimer Disease and Parkinson Disease: A Meta-analysis."
+                    },
+                    {
+                        "sid":  "S4",
+                        "pmid":  "32914577",
+                        "title":  "Memantine, Donepezil, or Combination Therapy-What is the best therapy for Alzheimer\u0027s Disease? A Network Meta-Analysis."
+                    },
+                    {
+                        "sid":  "S5",
+                        "pmid":  "32941929",
+                        "title":  "Alzheimer\u0027s disease: Recent treatment strategies."
+                    },
+                    {
+                        "sid":  "S6",
+                        "pmid":  "14734594",
+                        "title":  "Memantine treatment in patients with moderate to severe Alzheimer disease already receiving donepezil: a randomized controlled trial."
+                    },
+                    {
+                        "sid":  "S7",
+                        "pmid":  "38484213",
+                        "title":  "Lecanemab Questions."
+                    },
+                    {
+                        "sid":  "S8",
+                        "pmid":  "10534086",
+                        "title":  "Diagnosis and management of Alzheimer disease."
+                    },
+                    {
+                        "sid":  "S9",
+                        "pmid":  "32679025",
+                        "title":  "Current Strategies and Novel Drug Approaches for Alzheimer Disease."
+                    },
+                    {
+                        "sid":  "S10",
+                        "pmid":  "9475825",
+                        "title":  "Donepezil use in Alzheimer disease."
+                    }
+                ],
+    "metrics_all":  {
+                        "n_bullets":  14,
+                        "n_missing_citations":  0,
+                        "coverage_pct":  100.0,
+                        "bad_reference_nums":  [
+
+                                               ],
+                        "missing_examples":  [
+
+                                             ]
+                    },
+    "agentic_used":  false,
+    "agentic_attempts":  0,
+    "metrics_sec2":  {
+                         "n_bullets":  5,
+                         "n_missing_citations":  0,
+                         "coverage_pct":  100.0,
+                         "bad_reference_nums":  [
+
+                                                ],
+                         "missing_examples":  [
+
+                                              ]
+                     },
+    "report_path":  "/app/reports/Donepezil__Alzheimer_Disease__20260213_111521.md"
+}
