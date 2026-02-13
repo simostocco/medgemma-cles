@@ -232,3 +232,8 @@ huggingface/
 .idea/
 .DS_Store
 Thumbs.db
+
+reports/
+# allow golden demo reports in examples
+!examples/reports/
+!examples/reports/**
