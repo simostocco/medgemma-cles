@@ -1,0 +1,1232 @@
+﻿{
+    "metadata":  {
+                     "disease":  "ALS",
+                     "drug":  "Ibuprofen",
+                     "chembl_id":  "CHEMBL521",
+                     "chembl_match_reason":  "exact",
+                     "chembl_preferred_name":  "IBUPROFEN"
+                 },
+    "molecule_pack":  {
+                          "molecule_chembl_id":  "CHEMBL521",
+                          "preferred_name":  "IBUPROFEN",
+                          "molecule_type":  "Small molecule",
+                          "canonical_smiles":  "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+                          "standard_inchi":  "InChI=1S/C13H18O2/c1-9(2)8-11-4-6-12(7-5-11)10(3)13(14)15/h4-7,9-10H,8H2,1-3H3,(H,14,15)",
+                          "n_activity_records_fetched":  400,
+                          "top_targets":  [
+                                              {
+                                                  "target_chembl_id":  "CHEMBL376",
+                                                  "target_pref_name":  "Rattus norvegicus",
+                                                  "n_records":  166,
+                                                  "activity_types":  {
+                                                                         "Inhibition":  67,
+                                                                         "Activity":  36,
+                                                                         "ED50":  20,
+                                                                         "ID50":  7,
+                                                                         "Ulcerogenic index":  6,
+                                                                         "UI":  6,
+                                                                         "Change":  3,
+                                                                         "UD50":  3,
+                                                                         "Decrease":  3,
+                                                                         "UD":  2,
+                                                                         "Weight gain":  2,
+                                                                         "ED40":  1,
+                                                                         "Blood loss":  1,
+                                                                         "Lethality":  1,
+                                                                         "IC50":  1,
+                                                                         "Lesion index":  1,
+                                                                         "Relative potency":  1,
+                                                                         "Mortality":  1,
+                                                                         "Ulcerogenic activity":  1,
+                                                                         "Body weight change":  1,
+                                                                         "Gastriculcer index":  1,
+                                                                         "permeability":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "g",
+                                                                "g (100g of body weight)-1",
+                                                                "mM",
+                                                                "mg kg-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  159,
+                                                                          "\u003e":  2
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  50.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED40",
+                                                                             "value":  150.0,
+                                                                             "units":  "mg kg-1",
+                                                                             "relation":  "\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "UD",
+                                                                             "value":  30.0,
+                                                                             "units":  "mg kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "UD",
+                                                                             "value":  30.0,
+                                                                             "units":  "mg kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Blood loss",
+                                                                             "value":  200.0,
+                                                                             "units":  "mg kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Lethality",
+                                                                             "value":  400.0,
+                                                                             "units":  "mg kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  100.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ID50",
+                                                                             "value":  10.8,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ID50",
+                                                                             "value":  15.9,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  62.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  166,
+                                                  "n_references":  61
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL375",
+                                                  "target_pref_name":  "Mus musculus",
+                                                  "n_records":  45,
+                                                  "activity_types":  {
+                                                                         "Activity":  13,
+                                                                         "ED50":  8,
+                                                                         "Inhibition":  6,
+                                                                         "LD50":  5,
+                                                                         "Analgesia":  3,
+                                                                         "ID50":  2,
+                                                                         "Drug uptake":  2,
+                                                                         "Change":  1,
+                                                                         "ID40":  1,
+                                                                         "NTD50":  1,
+                                                                         "Paw weight increase":  1,
+                                                                         "Edema inhibition":  1,
+                                                                         "BBR":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "mg kg-1",
+                                                                "mg.kg-1",
+                                                                "s",
+                                                                "uM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  41,
+                                                                          "\u003e":  3
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  15.7,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  4.8,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Change",
+                                                                             "value":  -11.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  50.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LD50",
+                                                                             "value":  1650.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  50.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LD50",
+                                                                             "value":  1394.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  32.4,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ID50",
+                                                                             "value":  600.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "ID50",
+                                                                             "value":  150.0,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "\u003e"
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  45,
+                                                  "n_references":  24
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612545",
+                                                  "target_pref_name":  "Unchecked",
+                                                  "n_records":  18,
+                                                  "activity_types":  {
+                                                                         "Ratio IC50":  9,
+                                                                         "Activity":  3,
+                                                                         "Ratio":  2,
+                                                                         "IC50 ratio":  1,
+                                                                         "Safety index":  1,
+                                                                         "Inhibition":  1,
+                                                                         "Ratio pKi":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nmol"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "\u003e\u003e":  1,
+                                                                          "=":  15,
+                                                                          "\u003e":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50 ratio",
+                                                                             "value":  16.0,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003e\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  5.1,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  0.3,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Safety index",
+                                                                             "value":  2.3,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  28.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  2.63,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  1.1,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio pKi",
+                                                                             "value":  0.62,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  60.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio IC50",
+                                                                             "value":  28.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  18,
+                                                  "n_references":  16
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612558",
+                                                  "target_pref_name":  "ADMET",
+                                                  "n_records":  15,
+                                                  "activity_types":  {
+                                                                         "LogP app":  3,
+                                                                         "Log Pe,max":  2,
+                                                                         "Log Po":  2,
+                                                                         "Binding energy":  1,
+                                                                         "TR":  1,
+                                                                         "delta logD":  1,
+                                                                         "F":  1,
+                                                                         "TI":  1,
+                                                                         "Papp":  1,
+                                                                         "logPm":  1,
+                                                                         "Ratio":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "10^-6 cm/s",
+                                                                "kCal mol-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  13,
+                                                                          "\u003e=":  1,
+                                                                          "\u003c":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Binding energy",
+                                                                             "value":  8.3,
+                                                                             "units":  "kCal mol-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log Pe,max",
+                                                                             "value":  -3.7,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log Po",
+                                                                             "value":  -0.9,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log Pe,max",
+                                                                             "value":  -3.7,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log Po",
+                                                                             "value":  -0.9,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TR",
+                                                                             "value":  3.4,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "delta logD",
+                                                                             "value":  0.88,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "F",
+                                                                             "value":  80.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "\u003e="
+                                                                         },
+                                                                         {
+                                                                             "type":  "TI",
+                                                                             "value":  2.15,
+                                                                             "units":  "",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogP app",
+                                                                             "value":  -4.67,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  13,
+                                                  "n_references":  7
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2949",
+                                                  "target_pref_name":  "Prostaglandin G/H synthase 1",
+                                                  "n_records":  15,
+                                                  "activity_types":  {
+                                                                         "IC50":  12,
+                                                                         "Inhibition":  3
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  14,
+                                                                          "\u003c":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1060.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  9000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  14400.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  50.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  96.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  53.26,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  15,
+                                                  "n_references":  15
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL230",
+                                                  "target_pref_name":  "Prostaglandin G/H synthase 2",
+                                                  "n_records":  13,
+                                                  "activity_types":  {
+                                                                         "IC50":  11,
+                                                                         "Inhibition":  2
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  13
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  30000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  8000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  30000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  30000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  6.33,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  6200.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1030000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  40.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  13,
+                                                  "n_references":  13
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL372",
+                                                  "target_pref_name":  "Homo sapiens",
+                                                  "n_records":  12,
+                                                  "activity_types":  {
+                                                                         "CL":  3,
+                                                                         "CL_renal":  2,
+                                                                         "Vdss":  2,
+                                                                         "Log Pe":  1,
+                                                                         "Fg":  1,
+                                                                         "F_fraction":  1,
+                                                                         "Fa":  1,
+                                                                         "Fh":  1
+                                                                     },
+                                                  "units":  [
+                                                                "L.kg-1",
+                                                                "mL.min-1.kg-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  12
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Log Pe",
+                                                                             "value":  -4.7,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  0.82,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL_renal",
+                                                                             "value":  0.01,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Fg",
+                                                                             "value":  1.04,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL_renal",
+                                                                             "value":  0.0082,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Vdss",
+                                                                             "value":  0.15,
+                                                                             "units":  "L.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  0.8,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "CL",
+                                                                             "value":  0.82,
+                                                                             "units":  "mL.min-1.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "F_fraction",
+                                                                             "value":  0.95,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Fa",
+                                                                             "value":  0.95,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  12,
+                                                  "n_references":  4
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL4102",
+                                                  "target_pref_name":  "Prostaglandin G/H synthase 2",
+                                                  "n_records":  12,
+                                                  "activity_types":  {
+                                                                         "IC50":  9,
+                                                                         "Inhibition":  2,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  11
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  265500.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  370000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1030000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  76.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  87.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  11,
+                                                  "n_references":  9
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL221",
+                                                  "target_pref_name":  "Prostaglandin G/H synthase 1",
+                                                  "n_records":  10,
+                                                  "activity_types":  {
+                                                                         "IC50":  8,
+                                                                         "Selectivity":  1,
+                                                                         "Inhibition":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  10
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  6300.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  11100.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Selectivity",
+                                                                             "value":  0.1,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  6900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  18000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  48.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  25000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  10,
+                                                  "n_references":  9
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2362975",
+                                                  "target_pref_name":  "No relevant target",
+                                                  "n_records":  9,
+                                                  "activity_types":  {
+                                                                         "pKa":  3,
+                                                                         "LogP":  2,
+                                                                         "Log S":  1,
+                                                                         "LogD":  1,
+                                                                         "Log Kmemb":  1,
+                                                                         "Log PNalk":  1
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  9
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Log S",
+                                                                             "value":  -3.76,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogP",
+                                                                             "value":  1.95,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogD",
+                                                                             "value":  2.18,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  5.2,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log Kmemb",
+                                                                             "value":  0.8,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Log PNalk",
+                                                                             "value":  2.08,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "LogP",
+                                                                             "value":  3.5,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  7.95,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "pKa",
+                                                                             "value":  5.2,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  9,
+                                                  "n_references":  7
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL360",
+                                                  "target_pref_name":  "Mycobacterium tuberculosis",
+                                                  "n_records":  6,
+                                                  "activity_types":  {
+                                                                         "Activity":  6
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  5,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3229",
+                                                  "target_pref_name":  "Fatty-acid amide hydrolase 1",
+                                                  "n_records":  6,
+                                                  "activity_types":  {
+                                                                         "IC50":  4,
+                                                                         "Inhibition":  2
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  5,
+                                                                          "\u003e":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  240000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  71.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  500000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  263026.8,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  260000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  5,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2860",
+                                                  "target_pref_name":  "Prostaglandin G/H synthase 1",
+                                                  "n_records":  5,
+                                                  "activity_types":  {
+                                                                         "IC50":  4,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  4
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  13000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  18000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2900.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  4,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL312",
+                                                  "target_pref_name":  "Polyunsaturated fatty acid 5-lipoxygenase",
+                                                  "n_records":  4,
+                                                  "activity_types":  {
+                                                                         "Change":  2,
+                                                                         "IC50":  2
+                                                                     },
+                                                  "units":  [
+                                                                "nM",
+                                                                "uM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "\u003e":  2,
+                                                                          "=":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Change",
+                                                                             "value":  50.0,
+                                                                             "units":  "uM",
+                                                                             "relation":  "\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Change",
+                                                                             "value":  50.0,
+                                                                             "units":  "uM",
+                                                                             "relation":  "\u003e"
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  14000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  4,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3879801",
+                                                  "target_pref_name":  "NON-PROTEIN TARGET",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "IC50":  2,
+                                                                         "Activity":  1
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  2
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  87096358995608.31,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  54300.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  3,
+                                                  "n_references":  3
+                                              }
+                                          ],
+                          "generated_at":  "2026-02-13 11:12:40"
+                      },
+    "snippets":  [
+                     {
+                         "sid":  "S1",
+                         "pmid":  "31158774",
+                         "title":  "MCR-ALS analysis of IR spectroscopy and XRD for the investigation of ibuprofen - nicotinamide cocrystal formation.",
+                         "year":  "2019",
+                         "journal":  "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+                         "text":  "[S1] Title: MCR-ALS analysis of IR spectroscopy and XRD for the investigation of ibuprofen - nicotinamide cocrystal formation.\nYear: 2019 | Journal: Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy | PMID: 31158774\nAbstract: To improve aqueous solubility, a poorly water-soluble active ingredient is classically combined with a conformer to form cocrystals. Hot melt extrusion is one preparation method for the formation of cocrystal solids. The aim of our study was to determine the optimal temperature conditions for the formation of ibuprofen and nicotinamide cocrystals using real-time infrared (IR) and X-ray diffraction (XRD) measurements. IR spectra and XRD patterns were subjected to multivariate curve resolution alternating least squares (MCR-ALS) analysis and decomposed into several components. Each component was descriptive of a specific step in the formation of the cocrystal. Cocrystal formation was followed by a separation phase between amorphous ibuprofen and crystalline nicotinamide. Our results suggest that, when using the hot melt exclusion method, careful consideration should be made towards...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/31158774/"
+                     },
+                     {
+                         "sid":  "S2",
+                         "pmid":  "9144851",
+                         "title":  "A systematic review of randomized controlled trials of pharmacological therapy in osteoarthritis of the knee, with an emphasis on trial methodology.",
+                         "year":  "1997",
+                         "journal":  "Seminars in arthritis and rheumatism",
+                         "text":  "[S2] Title: A systematic review of randomized controlled trials of pharmacological therapy in osteoarthritis of the knee, with an emphasis on trial methodology.\nYear: 1997 | Journal: Seminars in arthritis and rheumatism | PMID: 9144851\nAbstract: We systematically reviewed randomized controlled trials (RCTs) of pharmacological therapy in knee osteoarthritis (OA), published between 1966 and August 1994. RCTs were identified by MEDLINE, supplemented by a manual search of reference lists. Qualitative assessment of RCTs was performed using Gotzsche\u0027s method; design and analysis features were rated on a scale of 0 (worst) to 8 (best). Heller et al\u0027s method was used to compare efficacy of nonsteroidal antiinflammatory drugs (NSAIDs) in comparative trials. A total of 80 RCTs were analyzed (45 involved NSAIDs, 3 analgesics, 5 intraarticular [IA] steroids, 9 biological agents, including IA hyaluronic acid, and 18 mixed modalities, including topical capsaicin). The median design and analysis scores for all 80 RCTs were 2 and 5, respectively. NSAIDs were superior to placebo in all short-term trials, but in the 32 comparative NSAID trials,...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/9144851/"
+                     },
+                     {
+                         "sid":  "S3",
+                         "pmid":  "22537108",
+                         "title":  "Concurrent blockade of free radical and microsomal prostaglandin E synthase-1-mediated PGE2 production improves safety and efficacy in a mouse model of amyotrophic lateral sclerosis.",
+                         "year":  "2012",
+                         "journal":  "Journal of neurochemistry",
+                         "text":  "[S3] Title: Concurrent blockade of free radical and microsomal prostaglandin E synthase-1-mediated PGE2 production improves safety and efficacy in a mouse model of amyotrophic lateral sclerosis.\nYear: 2012 | Journal: Journal of neurochemistry | PMID: 22537108\nAbstract: While free radicals and inflammation constitute major routes of neuronal injury occurring in amyotrophic lateral sclerosis (ALS), neither antioxidants nor non-steroidal anti-inflammatory drugs have shown significant efficacy in human clinical trials. We examined the possibility that concurrent blockade of free radicals and prostaglandin E(2) (PGE(2))-mediated inflammation might constitute a safe and effective therapeutic approach to ALS. We have developed 2-hydroxy-5-[2-(4-trifluoromethylphenyl)-ethylaminobenzoic acid] (AAD-2004) as a derivative of aspirin. AAD-2004 completely removed free radicals at 50 nM as a potent spin-trapping molecule and inhibited microsomal PGE(2) synthase-1 (mPGES-1) activity in response to both lipopolysaccharide-treated BV2 cell with IC(50) of 230 nM and recombinant human mPGES-1 protein with IC(50) of 249 nM in vitro. In superoxide dismutase 1(G93A)...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/22537108/"
+                     },
+                     {
+                         "sid":  "S4",
+                         "pmid":  "31284897",
+                         "title":  "Application of Chemometrics for Spectral Resolving and Determination of Three Analgesics in Water Samples.",
+                         "year":  "2020",
+                         "journal":  "Journal of AOAC International",
+                         "text":  "[S4] Title: Application of Chemometrics for Spectral Resolving and Determination of Three Analgesics in Water Samples.\nYear: 2020 | Journal: Journal of AOAC International | PMID: 31284897\nAbstract: BACKGROUND: Chemometrics is a discipline that allows the spectral resolution of drugs in a complicated matrix (e.g., environmental water samples) as an alternative to chromatographic methods. OBJECTIVE: Three analgesics were traced in wastewater samples with simple and cost-effective multivariate approaches using spectrophotometric data. METHODS AND RESULTS: Four chemometric approaches were applied for the simultaneous determination of diclofenac, paracetamol, and ibuprofen. Partial least squares (PLS), principal component regression (PCR), artificial neural networks (ANN), and multivariate curve resolution (MCR)-alternating least squares (ALS) were selected. The presented methods were compared and validated for their qualitative and quantitative analyses. Moreover, statistical comparison between the results obtained by the proposed methods and the official methods showed no significant...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/31284897/"
+                     },
+                     {
+                         "sid":  "S5",
+                         "pmid":  "12392782",
+                         "title":  "Cyclooxygenase and 5-lipoxygenase inhibitors protect against mononuclear phagocyte neurotoxicity.",
+                         "year":  "2002",
+                         "journal":  "Neurobiology of aging",
+                         "text":  "[S5] Title: Cyclooxygenase and 5-lipoxygenase inhibitors protect against mononuclear phagocyte neurotoxicity.\nYear: 2002 | Journal: Neurobiology of aging | PMID: 12392782\nAbstract: Neuroinflammation and oxidative stress are believed to be contributing factors to neurodegeneration in normal aging, as well as in age-related neurological disorders. Reactive microglia are found in increased numbers in aging brain and are prominently associated with lesions in such age-related degenerative conditions as Alzheimer\u0027s disease (AD), Parkinson\u0027s disease (PD) and amyotrophic lateral sclerosis (ALS). In vitro, stimulated microglia or microglial-like cells secrete neurotoxic materials and are generators of free radicals through their respiratory burst system. Agents that suppress microglial activation are therefore candidates for neuroprotection. We have developed quantitative in vitro assays for measuring neurotoxicity of microglia or other mononuclear phagocytes. Neuronal like SH-SY5Y cells are cultured in supernatants from activated cells of the human monocytic THP-1 line...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/12392782/"
+                     },
+                     {
+                         "sid":  "S6",
+                         "pmid":  "31467766",
+                         "title":  "Simultaneous Determination of Over-the-Counter Pain Relievers in Commercial Pharmaceutical Products Utilizing Multivariate Curve Resolution-Alternating Least Squares (MCR-ALS) Multivariate Calibration Model.",
+                         "year":  "2019",
+                         "journal":  "Journal of analytical methods in chemistry",
+                         "text":  "[S6] Title: Simultaneous Determination of Over-the-Counter Pain Relievers in Commercial Pharmaceutical Products Utilizing Multivariate Curve Resolution-Alternating Least Squares (MCR-ALS) Multivariate Calibration Model.\nYear: 2019 | Journal: Journal of analytical methods in chemistry | PMID: 31467766\nAbstract: The quality of over-the-counter (OTC) pain relievers is important to ensure the safety of the marketed products in order to maintain the overall health care of patients. In this study, the multivariate curve resolution-alternating least squares (MCR-ALS) chemometric method was developed and validated for the resolution and quantification of the most commonly consumed OTC pain relievers (acetaminophen, acetylsalicylic acid, ibuprofen, naproxen, and caffeine) in commercial drug formulations. The analytical performance of the developed chemometric methods such as root mean square error of prediction, bias, standard error of prediction, relative error of prediction, and coefficients of determination was calculated for the developed model. The obtained results are linear with concentration in the range of 0.5-7âÎ¼g/mL for acetaminophen and 0.5-3.5 and 0.5-3âÎ¼g/mL for naproxen and caffeine,...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/31467766/"
+                     },
+                     {
+                         "sid":  "S7",
+                         "pmid":  "24398467",
+                         "title":  "Competitive interactions of anti-carcinogens with serum albumin: a spectroscopic study of bendamustine and dexamethasone with the aid of chemometrics.",
+                         "year":  "2014",
+                         "journal":  "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+                         "text":  "[S7] Title: Competitive interactions of anti-carcinogens with serum albumin: a spectroscopic study of bendamustine and dexamethasone with the aid of chemometrics.\nYear: 2014 | Journal: Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy | PMID: 24398467\nAbstract: Interactions between the anti-carcinogens, bendamustine (BDM) and dexamethasone (DXM), with bovine serum albumin (BSA) were investigated with the use of fluorescence and UV-vis spectroscopies under pseudo-physiological conditions (Tris-HCl buffer, pH 7.4). The static mechanism was responsible for the fluorescence quenching during the interactions; the binding formation constant of the BSA-BDM complex and the binding number were 5.14Ã10(5)Lmol(-1) and 1.0, respectively. Spectroscopic studies for the formation of BDM-BSA complex were interpreted with the use of multivariate curve resolution - alternating least squares (MCR-ALS), which supported the complex formation. The BSA samples treated with site markers (warfarin - site I and ibuprofen - site II) were reacted separately with BDM and DXM; while both anti-carcinogens bound to site I, the binding constants suggested that DXM formed a...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/24398467/"
+                     },
+                     {
+                         "sid":  "S8",
+                         "pmid":  "20544093",
+                         "title":  "Analysis of the interactions of mixtures of two beta-agonists steroids with bovine serum albumin: a fluorescence spectroscopy and chemometrics investigation.",
+                         "year":  "2010",
+                         "journal":  "The Analyst",
+                         "text":  "[S8] Title: Analysis of the interactions of mixtures of two beta-agonists steroids with bovine serum albumin: a fluorescence spectroscopy and chemometrics investigation.\nYear: 2010 | Journal: The Analyst | PMID: 20544093\nAbstract: Beta-agonists such as ractopamine (RAC) and clenbuterol (CLEN), have similar effects as anabolic steroids i.e. they promote growth of muscular tissue and reduce body fat. They have been used successfully with animals and humans but have also been banned in many countries principally, because of their serious side effects. However, their illegal use persists. Thus, their interaction with biomolecules such as bovine serum albumin (BSA) is of significance, especially the co-operative reaction of mixed ligands with the protein. Fluorescence and UV-vis spectra of complex mixtures of individual ligands, binary and ternary complexes with BSA resulted in significantly overlapping spectral profiles. Qualitative and quantitative information about the various complex ligand-protein species formed, was obtained with the resolution of the excitation-emission fluorescence three-way data matrices by...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/20544093/"
+                     }
+                 ],
+    "report":  "## Research Report: Ibuprofen in ALS\n\n**1) Question:** Does Ibuprofen have a potential therapeutic role in Amyotrophic Lateral Sclerosis (ALS)?\n\n**2) Evidence Summary:**\n\n- Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID) commonly used to relieve pain and inflammation [S1][S2].\n- While NSAIDs like ibuprofen have shown efficacy in reducing pain in knee osteoarthritis [S2], their effectiveness in treating ALS remains unclear. \n- Concurrent blockade of free radicals and prostaglandin E2 (PGE2)-mediated inflammation, which ibuprofen can achieve, showed promise in a mouse model of ALS [S3].\n- [S1]\n\n**3) Biological Rationale:**\n\n- Ibuprofen inhibits cyclooxygenase (COX) enzymes, reducing the production of prostaglandins, which contribute to inflammation and oxidative stress [S5].\n- Neuroinflammation and oxidative stress are implicated in the pathogenesis of ALS [S5].\n- [S3], [S5]\n\n**4) Contradictions / Gaps:**\n\n- [S2]\n- [S4]\n- While the AAD-2004 derivative, which blocks both free radicals and PGE2, showed promise in a mouse model [S3], it is not a direct comparison to ibuprofen.\n\n**5) Uncertainty \u0026 Limitations:**\n\n- [S6]\n- [S7]\n- [S8]\n\n**6) Safety Note:**\n\nThis report is for informational purposes only and should not be interpreted as medical advice or a recommendation for treatment. Consult with a healthcare professional for any health concerns or before making any decisions about your health or treatment. ",
+    "trust_score":  100.0,
+    "metrics":  {
+                    "n_bullets":  13,
+                    "n_missing_citations":  7,
+                    "coverage_pct":  46.15,
+                    "bad_reference_nums":  [
+
+                                           ],
+                    "missing_examples":  [
+                                             "- However, there is limited research directly investigating the effects of ibuprofen on ALS progression in humans or animal models [Insufficient evidence in the provided snippets].",
+                                             "- Therefore, ibuprofen\u0027s anti-inflammatory properties could potentially mitigate these processes and offer some neuroprotection in ALS [Hypothesis based on S3 and S5].",
+                                             "- The evidence regarding ibuprofen\u0027s effectiveness in ALS is limited and indirect [Insufficient evidence in the provided snippets].",
+                                             "- There is a lack of clinical trials investigating the specific effects of ibuprofen on ALS progression or symptoms [Insufficient evidence in the provided snippets].",
+                                             "- The quality of evidence is limited as most studies focus on NSAIDs in general or other neurological conditions [Insufficient evidence in the provided snippets]."
+                                         ]
+                },
+    "sources":  [
+                    {
+                        "sid":  "S1",
+                        "pmid":  "31158774",
+                        "title":  "MCR-ALS analysis of IR spectroscopy and XRD for the investigation of ibuprofen - nicotinamide cocrystal formation."
+                    },
+                    {
+                        "sid":  "S2",
+                        "pmid":  "9144851",
+                        "title":  "A systematic review of randomized controlled trials of pharmacological therapy in osteoarthritis of the knee, with an emphasis on trial methodology."
+                    },
+                    {
+                        "sid":  "S3",
+                        "pmid":  "22537108",
+                        "title":  "Concurrent blockade of free radical and microsomal prostaglandin E synthase-1-mediated PGE2 production improves safety and efficacy in a mouse model of amyotrophic lateral sclerosis."
+                    },
+                    {
+                        "sid":  "S4",
+                        "pmid":  "31284897",
+                        "title":  "Application of Chemometrics for Spectral Resolving and Determination of Three Analgesics in Water Samples."
+                    },
+                    {
+                        "sid":  "S5",
+                        "pmid":  "12392782",
+                        "title":  "Cyclooxygenase and 5-lipoxygenase inhibitors protect against mononuclear phagocyte neurotoxicity."
+                    },
+                    {
+                        "sid":  "S6",
+                        "pmid":  "31467766",
+                        "title":  "Simultaneous Determination of Over-the-Counter Pain Relievers in Commercial Pharmaceutical Products Utilizing Multivariate Curve Resolution-Alternating Least Squares (MCR-ALS) Multivariate Calibration Model."
+                    },
+                    {
+                        "sid":  "S7",
+                        "pmid":  "24398467",
+                        "title":  "Competitive interactions of anti-carcinogens with serum albumin: a spectroscopic study of bendamustine and dexamethasone with the aid of chemometrics."
+                    },
+                    {
+                        "sid":  "S8",
+                        "pmid":  "20544093",
+                        "title":  "Analysis of the interactions of mixtures of two beta-agonists steroids with bovine serum albumin: a fluorescence spectroscopy and chemometrics investigation."
+                    }
+                ],
+    "metrics_all":  {
+                        "n_bullets":  13,
+                        "n_missing_citations":  0,
+                        "coverage_pct":  100.0,
+                        "bad_reference_nums":  [
+
+                                               ],
+                        "missing_examples":  [
+
+                                             ]
+                    },
+    "agentic_used":  true,
+    "agentic_attempts":  2,
+    "metrics_sec2":  {
+                         "n_bullets":  4,
+                         "n_missing_citations":  0,
+                         "coverage_pct":  100.0,
+                         "bad_reference_nums":  [
+
+                                                ],
+                         "missing_examples":  [
+
+                                              ]
+                     },
+    "n_rewritten_to_insufficient":  6,
+    "report_path":  "/app/reports/Ibuprofen__ALS__20260213_111321.md"
+}
