@@ -34,3 +34,16 @@ From repo root:
 
 ```powershell
 mkdir reports
+
+
+## Examples
+
+Requests:
+- `examples/requests/ibuprofen_als.json`
+- `examples/requests/donepezil_alzheimer.json`
+- `examples/requests/metformin_t2d.json`
+
+Reports:
+- `examples/reports/ibuprofen_als.md`
+- `examples/reports/donepezil_alzheimer.md`
+- `examples/reports/metformin_t2d.md`
