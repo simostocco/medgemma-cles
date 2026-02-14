@@ -2,7 +2,7 @@ import argparse
 import os
 from datetime import datetime
 from medgemma.pipeline.orchestrator import run_pipeline
-
+import re
 
 def save_markdown_report(res: dict, out_dir: str):
     os.makedirs(out_dir, exist_ok=True)
@@ -28,10 +28,15 @@ def save_markdown_report(res: dict, out_dir: str):
         f.write("\n\n---\n\n")
         f.write("## Sources\n\n")
 
+        used_sids = set(re.findall(r"\[(S\d+)\]", report))
+
         for s in sources:
+            sid = s.get("sid")
+            if sid not in used_sids:
+                continue
+            
             pmid = s.get("pmid")
             title = s.get("title", "No Title")
-            sid = s.get("sid")
             if pmid:
                 f.write(f"- {sid}: {title} — https://pubmed.ncbi.nlm.nih.gov/{pmid}/\n")
 

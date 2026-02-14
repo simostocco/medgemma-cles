@@ -3,7 +3,8 @@ from pydantic import BaseModel
 from medgemma.pipeline.orchestrator import run_pipeline
 from medgemma.agentic.repair_lmstudio import agentic_research_pipeline_lmstudio
 from medgemma.generation.lmstudio_backend import generate_report_lmstudio
-from medgemma.utils.reporting import save_markdown_report  # <-- aggiungi
+from medgemma.utils.reporting import save_markdown_report  
+from medgemma.utils.report_postprocess import add_header_block
 
 import os
 from fastapi import Header, HTTPException, Depends
@@ -49,5 +50,8 @@ def evidence_synthesis(q: Query, _: None = Depends(require_api_key)):
         result["report_path"] = report_path
     except Exception as e:
         result["report_save_error"] = str(e)
-
+    snippets = result.get("snippets") or []
+    if result.get("report"):
+        result["report"] = add_header_block(result["report"], snippets)
+        
     return result

@@ -107,6 +107,7 @@ BULLETS TO FIX:
             m = re.match(r"^\s*\d+\)\s+(.*)$", line)
             if m:
                 fixed = m.group(1).strip()
+                fixed = fixed.replace(" + [", " [").replace("+[", "[")
                 if not fixed.startswith("- "):
                     fixed = "- " + fixed.lstrip("-").strip()
                 repaired_lines.append(fixed)
