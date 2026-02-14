@@ -1,0 +1,1120 @@
+﻿{
+    "metadata":  {
+                     "disease":  "Depression",
+                     "drug":  "Rapamycin",
+                     "chembl_id":  "CHEMBL413",
+                     "chembl_match_reason":  "fuzzy",
+                     "chembl_preferred_name":  "SIROLIMUS"
+                 },
+    "molecule_pack":  {
+                          "molecule_chembl_id":  "CHEMBL413",
+                          "preferred_name":  "SIROLIMUS",
+                          "molecule_type":  "Small molecule",
+                          "canonical_smiles":  "CO[C@H]1C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCC[C@H]2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)[C@H](C)/C=C(\\C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)/C=C/C=C/C=C/1C",
+                          "standard_inchi":  "InChI=1S/C51H79NO13/c1-30-16-12-11-13-17-31(2)42(61-8)28-38-21-19-36(7)51(60,65-38)48(57)49(58)52-23-15-14-18-39(52)50(59)64-43(33(4)26-37-20-22-40(53)44(27-37)62-9)29-41(54)32(3)25-35(6)46(56)47(63-10)45(55)34(5)24-30/h11-13,16-17,25,30,32-34,36-40,42-44,46-47,53,56,60H,14-15,18-24,26-29H2,1-10H3/b13-11+,16-12+,31-17+,35-25+/t30-,32-,33-,34-,36-,37+,38+,39+,40-,42+,43+,44-,46-,47+,51-/m1/s1",
+                          "n_activity_records_fetched":  400,
+                          "top_targets":  [
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612546",
+                                                  "target_pref_name":  "Molecular identity unknown",
+                                                  "n_records":  126,
+                                                  "activity_types":  {
+                                                                         "FC":  126
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  126
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  2.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  3.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  2.5,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  3.3,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  2.5,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  2.4,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  3.2,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  -2.2,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  5.3,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  -3.6,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  126,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL612545",
+                                                  "target_pref_name":  "Unchecked",
+                                                  "n_records":  27,
+                                                  "activity_types":  {
+                                                                         "Activity":  9,
+                                                                         "Inhibition":  7,
+                                                                         "Ratio":  6,
+                                                                         "IC50":  3,
+                                                                         "Ki":  2
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  20
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  15.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  3.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ki",
+                                                                             "value":  1000.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ki",
+                                                                             "value":  0.5,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  95.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  87.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  6.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ratio",
+                                                                             "value":  22.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  27,
+                                                  "n_references":  8
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL375",
+                                                  "target_pref_name":  "Mus musculus",
+                                                  "n_records":  25,
+                                                  "activity_types":  {
+                                                                         "Activity":  13,
+                                                                         "Inhibition":  8,
+                                                                         "IC50":  2,
+                                                                         "Skin Graft Survival":  1,
+                                                                         "MST":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "day",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  17
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Skin Graft Survival",
+                                                                             "value":  12.0,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MST",
+                                                                             "value":  12.01,
+                                                                             "units":  "day",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  10.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  20.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  25,
+                                                  "n_references":  4
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL613107",
+                                                  "target_pref_name":  "PBMC",
+                                                  "n_records":  23,
+                                                  "activity_types":  {
+                                                                         "Inhibition":  16,
+                                                                         "Activity":  7
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  14
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  15.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  80.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  13.1,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  32.5,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  77.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  97.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  67.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  100.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Inhibition",
+                                                                             "value":  34.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  23,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL2842",
+                                                  "target_pref_name":  "Serine/threonine-protein kinase mTOR",
+                                                  "n_records":  13,
+                                                  "activity_types":  {
+                                                                         "Activity":  8,
+                                                                         "IC50":  4,
+                                                                         "AC50":  1
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  4
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  3.467,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  0.45,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.6,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  0.1,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  13,
+                                                  "n_references":  7
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1075452",
+                                                  "target_pref_name":  "H4",
+                                                  "n_records":  13,
+                                                  "activity_types":  {
+                                                                         "Activity":  13
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  11
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  171.67,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  165.87,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  164.93,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  131.41,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  152.35,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  149.89,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  88.62,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  205.66,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  259.68,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  285.38,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  13,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL378",
+                                                  "target_pref_name":  "Human immunodeficiency virus 1",
+                                                  "n_records":  13,
+                                                  "activity_types":  {
+                                                                         "Activity":  6,
+                                                                         "EC50":  5,
+                                                                         "FC":  2
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  12
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "EC50",
+                                                                             "value":  0.1,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "EC50",
+                                                                             "value":  1.3,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  1.1,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "FC",
+                                                                             "value":  2.5,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "EC50",
+                                                                             "value":  0.15,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "EC50",
+                                                                             "value":  2.5,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.34,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.66,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.78,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.85,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  13,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL366",
+                                                  "target_pref_name":  "Candida albicans",
+                                                  "n_records":  10,
+                                                  "activity_types":  {
+                                                                         "MIC":  10
+                                                                     },
+                                                  "units":  [
+                                                                "ug.mL-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  6,
+                                                                          "~":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  0.2,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "MIC",
+                                                                             "value":  100.0,
+                                                                             "units":  "ug.mL-1",
+                                                                             "relation":  "~"
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  10,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL376",
+                                                  "target_pref_name":  "Rattus norvegicus",
+                                                  "n_records":  9,
+                                                  "activity_types":  {
+                                                                         "ED50":  4,
+                                                                         "T1/2":  1,
+                                                                         "Cmax":  1,
+                                                                         "Tmax":  1,
+                                                                         "AUC":  1,
+                                                                         "F":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "hr",
+                                                                "mg.kg-1",
+                                                                "mpk/d",
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  9
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  2.1,
+                                                                             "units":  "mpk/d",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  0.5,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  0.3,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "ED50",
+                                                                             "value":  0.2,
+                                                                             "units":  "mg.kg-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "T1/2",
+                                                                             "value":  33.4,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Cmax",
+                                                                             "value":  55.57,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Tmax",
+                                                                             "value":  0.5,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "AUC",
+                                                                             "value":  559.0,
+                                                                             "units":  "ng.hr.mL-1",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "F",
+                                                                             "value":  43.2,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  9,
+                                                  "n_references":  2
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL372",
+                                                  "target_pref_name":  "Homo sapiens",
+                                                  "n_records":  7,
+                                                  "activity_types":  {
+                                                                         "IC50":  3,
+                                                                         "Activity":  2,
+                                                                         "T1/2":  1,
+                                                                         "F":  1
+                                                                     },
+                                                  "units":  [
+                                                                "%",
+                                                                "hr",
+                                                                "nM",
+                                                                "ng/ml",
+                                                                "ug ml-1"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  6,
+                                                                          "\u003c":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  0.5,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.27,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "T1/2",
+                                                                             "value":  63.0,
+                                                                             "units":  "hr",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "F",
+                                                                             "value":  14.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.15,
+                                                                             "units":  "ug ml-1",
+                                                                             "relation":  "\u003c"
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  7.1,
+                                                                             "units":  "ng/ml",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  7,
+                                                  "n_references":  6
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL1902",
+                                                  "target_pref_name":  "Peptidyl-prolyl cis-trans isomerase FKBP1A",
+                                                  "n_records":  6,
+                                                  "activity_types":  {
+                                                                         "IC50":  4,
+                                                                         "Selectivity":  1,
+                                                                         "Ki":  1
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  6
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  0.6,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.1,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Selectivity",
+                                                                             "value":  0.9,
+                                                                             "units":  "",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.6,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Ki",
+                                                                             "value":  0.2,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  0.45,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  6,
+                                                  "n_references":  5
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL4296662",
+                                                  "target_pref_name":  "mTOR/FKBP12A/FKBP12B",
+                                                  "n_records":  6,
+                                                  "activity_types":  {
+                                                                         "Activity":  6
+                                                                     },
+                                                  "units":  [
+
+                                                            ],
+                                                  "relation_counts":  {
+
+                                                                      },
+                                                  "value_examples":  [
+
+                                                                     ],
+                                                  "n_assays":  6,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL3879801",
+                                                  "target_pref_name":  "NON-PROTEIN TARGET",
+                                                  "n_records":  5,
+                                                  "activity_types":  {
+                                                                         "Activity":  5
+                                                                     },
+                                                  "units":  [
+                                                                "%"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  1
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  57.0,
+                                                                             "units":  "%",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  5,
+                                                  "n_references":  3
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL361",
+                                                  "target_pref_name":  "Saccharomyces cerevisiae",
+                                                  "n_records":  4,
+                                                  "activity_types":  {
+                                                                         "Activity":  4
+                                                                     },
+                                                  "units":  [
+                                                                "ug"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  4
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.00044,
+                                                                             "units":  "ug",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.00057,
+                                                                             "units":  "ug",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.00043,
+                                                                             "units":  "ug",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "Activity",
+                                                                             "value":  0.00074,
+                                                                             "units":  "ug",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  4,
+                                                  "n_references":  1
+                                              },
+                                              {
+                                                  "target_chembl_id":  "CHEMBL614309",
+                                                  "target_pref_name":  "T-cell",
+                                                  "n_records":  3,
+                                                  "activity_types":  {
+                                                                         "IC50":  3
+                                                                     },
+                                                  "units":  [
+                                                                "nM"
+                                                            ],
+                                                  "relation_counts":  {
+                                                                          "=":  3
+                                                                      },
+                                                  "value_examples":  [
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  9.8,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  1.6,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         },
+                                                                         {
+                                                                             "type":  "IC50",
+                                                                             "value":  2600.0,
+                                                                             "units":  "nM",
+                                                                             "relation":  "="
+                                                                         }
+                                                                     ],
+                                                  "n_assays":  3,
+                                                  "n_references":  2
+                                              }
+                                          ],
+                          "generated_at":  "2026-02-14 17:25:54"
+                      },
+    "snippets":  [
+                     {
+                         "sid":  "S1",
+                         "pmid":  "29150166",
+                         "title":  "Exercise and mental health.",
+                         "year":  "2017",
+                         "journal":  "Maturitas",
+                         "text":  "[S1] Title: Exercise and mental health.\nYear: 2017 | Journal: Maturitas | PMID: 29150166\nAbstract: There is a growing body of literature that recognizes the positive effects of exercise on mood states such as anxiety, stress and depression, through physiological and biochemical mechanisms, including endorphins, mitochondria, mammalian target of rapamycin, neurotransmitters and the hypothalamic-pituitary-adrenal axis, and via the thermogenic hypothesis. In addition, psychological mechanisms influence the effects of exercise on mood states, as suggested by both the distraction hypothesis and the self-efficacy hypothesis. Exercise has also been shown to reduce inflammation via several different processes (inflammation, cytokines, toll-like receptors, adipose tissue and via the vagal tone), which can contribute to better health outcomes in people suffering from mood disorders.",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/29150166/"
+                     },
+                     {
+                         "sid":  "S2",
+                         "pmid":  "29532791",
+                         "title":  "Mechanisms of ketamine action as an antidepressant.",
+                         "year":  "2018",
+                         "journal":  "Molecular psychiatry",
+                         "text":  "[S2] Title: Mechanisms of ketamine action as an antidepressant.\nYear: 2018 | Journal: Molecular psychiatry | PMID: 29532791\nAbstract: Clinical studies have demonstrated that a single sub-anesthetic dose of the dissociative anesthetic ketamine induces rapid and sustained antidepressant actions. Although this finding has been met with enthusiasm, ketamine\u0027s widespread use is limited by its abuse potential and dissociative properties. Recent preclinical research has focused on unraveling the molecular mechanisms underlying the antidepressant actions of ketamine in an effort to develop novel pharmacotherapies, which will mimic ketamine\u0027s antidepressant actions but lack its undesirable effects. Here we review hypotheses for the mechanism of action of ketamine as an antidepressant, including synaptic or GluN2B-selective extra-synaptic N-methyl-D-aspartate receptor (NMDAR) inhibition, inhibition of NMDARs localized on GABAergic interneurons, inhibition of NMDAR-dependent burst firing of lateral habenula neurons, and the role...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/29532791/"
+                     },
+                     {
+                         "sid":  "S3",
+                         "pmid":  "37998335",
+                         "title":  "Acne Transcriptomics: Fundamentals of Acne Pathogenesis and Isotretinoin Treatment.",
+                         "year":  "2023",
+                         "journal":  "Cells",
+                         "text":  "[S3] Title: Acne Transcriptomics: Fundamentals of Acne Pathogenesis and Isotretinoin Treatment.\nYear: 2023 | Journal: Cells | PMID: 37998335\nAbstract: This review on acne transcriptomics allows for deeper insights into the pathogenesis of acne and isotretinoin\u0027s mode of action. Puberty-induced insulin-like growth factor 1 (IGF-1), insulin and androgen signaling activate the kinase AKT and mechanistic target of rapamycin complex 1 (mTORC1). A Western diet (hyperglycemic carbohydrates and milk/dairy products) also co-stimulates AKT/mTORC1 signaling. The AKT-mediated phosphorylation of nuclear FoxO1 and FoxO3 results in their extrusion into the cytoplasm, a critical switch which enhances the transactivation of lipogenic and proinflammatory transcription factors, including androgen receptor (AR), sterol regulatory element-binding transcription factor 1 (SREBF1), peroxisome proliferator-activated receptor Î³ (PPARÎ³) and signal transducer and activator of transcription 3 (STAT3), but reduces the FoxO1-dependent expression of GATA binding...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37998335/"
+                     },
+                     {
+                         "sid":  "S4",
+                         "pmid":  "20724638",
+                         "title":  "mTOR-dependent synapse formation underlies the rapid antidepressant effects of NMDA antagonists.",
+                         "year":  "2010",
+                         "journal":  "Science (New York, N.Y.)",
+                         "text":  "[S4] Title: mTOR-dependent synapse formation underlies the rapid antidepressant effects of NMDA antagonists.\nYear: 2010 | Journal: Science (New York, N.Y.) | PMID: 20724638\nAbstract: The rapid antidepressant response after ketamine administration in treatment-resistant depressed patients suggests a possible new approach for treating mood disorders compared to the weeks or months required for standard medications. However, the mechanisms underlying this action of ketamine [a glutamate N-methyl-D-aspartic acid (NMDA) receptor antagonist] have not been identified. We observed that ketamine rapidly activated the mammalian target of rapamycin (mTOR) pathway, leading to increased synaptic signaling proteins and increased number and function of new spine synapses in the prefrontal cortex of rats. Moreover, blockade of mTOR signaling completely blocked ketamine induction of synaptogenesis and behavioral responses in models of depression. Our results demonstrate that these effects of ketamine are opposite to the synaptic deficits that result from exposure to stress and could...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/20724638/"
+                     },
+                     {
+                         "sid":  "S5",
+                         "pmid":  "33155503",
+                         "title":  "Ketamine: A tale of two enantiomers.",
+                         "year":  "2021",
+                         "journal":  "Journal of psychopharmacology (Oxford, England)",
+                         "text":  "[S5] Title: Ketamine: A tale of two enantiomers.\nYear: 2021 | Journal: Journal of psychopharmacology (Oxford, England) | PMID: 33155503\nAbstract: The discovery of the rapid antidepressant effects of the dissociative anaesthetic ketamine, an uncompetitive N-Methyl-D-Aspartate receptor antagonist, is arguably the most important breakthrough in depression research in the last 50âyears. Ketamine remains an off-label treatment for treatment-resistant depression with factors that limit widespread use including its dissociative effects and abuse potential. Ketamine is a racemic mixture, composed of equal amounts of (S)-ketamine and (R)-ketamine. An (S)-ketamine nasal spray has been developed and approved for use in treatment-resistant depression in the United States and Europe; however, some concerns regarding efficacy and side effects remain. Although (R)-ketamine is a less potent N-Methyl-D-Aspartate receptor antagonist than (S)-ketamine, increasing preclinical evidence suggests (R)-ketamine may have more potent and longer lasting...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/33155503/"
+                     },
+                     {
+                         "sid":  "S6",
+                         "pmid":  "37118117",
+                         "title":  "Systemic GDF11 attenuates depression-like phenotype in aged mice via stimulation of neuronal autophagy.",
+                         "year":  "2023",
+                         "journal":  "Nature aging",
+                         "text":  "[S6] Title: Systemic GDF11 attenuates depression-like phenotype in aged mice via stimulation of neuronal autophagy.\nYear: 2023 | Journal: Nature aging | PMID: 37118117\nAbstract: Cognitive decline and mood disorders increase in frequency with age. Many efforts are focused on the identification of molecules and pathways to treat these conditions. Here, we demonstrate that systemic administration of growth differentiation factor 11 (GDF11) in aged mice improves memory and alleviates senescence and depression-like symptoms in a neurogenesis-independent manner. Mechanistically, GDF11 acts directly on hippocampal neurons to enhance neuronal activity via stimulation of autophagy. Transcriptomic and biochemical analyses of these neurons reveal that GDF11 reduces the activity of mammalian target of rapamycin (mTOR), a master regulator of autophagy. Using a murine model of corticosterone-induced depression-like phenotype, we also show that GDF11 attenuates the depressive-like behavior of young mice. Analysis of sera from young adults with major depressive disorder (MDD)...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37118117/"
+                     },
+                     {
+                         "sid":  "S7",
+                         "pmid":  "37000971",
+                         "title":  "Psilocybin facilitates fear extinction in mice by promoting hippocampal neuroplasticity.",
+                         "year":  "2023",
+                         "journal":  "Chinese medical journal",
+                         "text":  "[S7] Title: Psilocybin facilitates fear extinction in mice by promoting hippocampal neuroplasticity.\nYear: 2023 | Journal: Chinese medical journal | PMID: 37000971\nAbstract: BACKGROUND: Posttraumatic stress disorder (PTSD) and depression are highly comorbid. Psilocybin exerts substantial therapeutic effects on depression by promoting neuroplasticity. Fear extinction is a key process in the mechanism of first-line exposure-based therapies for PTSD. We hypothesized that psilocybin would facilitate fear extinction by promoting hippocampal neuroplasticity. METHODS: First, we assessed the effects of psilocybin on percentage of freezing time in an auditory cued fear conditioning (FC) and fear extinction paradigm in mice. Psilocybin was administered 30 min before extinction training. Fear extinction testing was performed on the first day; fear extinction retrieval and fear renewal were tested on the sixth and seventh days, respectively. Furthermore, we verified the effect of psilocybin on hippocampal neuroplasticity using Golgi staining for the dendritic...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/37000971/"
+                     },
+                     {
+                         "sid":  "S8",
+                         "pmid":  "34565579",
+                         "title":  "Neuroplasticity as a convergent mechanism of ketamine and classical psychedelics.",
+                         "year":  "2021",
+                         "journal":  "Trends in pharmacological sciences",
+                         "text":  "[S8] Title: Neuroplasticity as a convergent mechanism of ketamine and classical psychedelics.\nYear: 2021 | Journal: Trends in pharmacological sciences | PMID: 34565579\nAbstract: The emerging therapeutic efficacy of ketamine and classical psychedelics for depression has inspired tremendous interest in the underlying neurobiological mechanisms. We review preclinical and clinical evidence supporting neuroplasticity as a convergent downstream mechanism of action for these novel fast-acting antidepressants. Through their primary glutamate or serotonin receptor targets, ketamine and psychedelics [psilocybin, lysergic acid diethylamide (LSD), and N,N-dimethyltryptamine (DMT)] induce synaptic, structural, and functional changes, particularly in pyramidal neurons in the prefrontal cortex. These include increased glutamate release, Î±-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor (AMPAR) activation, brain-derived neurotrophic factor (BDNF) and mammalian target of rapamycin (mTOR)-mediated signaling, expression of synaptic proteins, and synaptogenesis. Such...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/34565579/"
+                     },
+                     {
+                         "sid":  "S9",
+                         "pmid":  "33904154",
+                         "title":  "Novel Glutamatergic Modulators for the Treatment of Mood Disorders: Current Status.",
+                         "year":  "2021",
+                         "journal":  "CNS drugs",
+                         "text":  "[S9] Title: Novel Glutamatergic Modulators for the Treatment of Mood Disorders: Current Status.\nYear: 2021 | Journal: CNS drugs | PMID: 33904154\nAbstract: The efficacy of standard antidepressants is limited for many patients with mood disorders such as major depressive disorder (MDD) and bipolar depression, underscoring the urgent need to develop novel therapeutics. Both clinical and preclinical studies have implicated glutamatergic system dysfunction in the pathophysiology of mood disorders. In particular, rapid reductions in depressive symptoms have been observed in response to subanesthetic doses of the glutamatergic modulator racemic (R,S)-ketamine in individuals with mood disorders. These results have prompted investigation into other glutamatergic modulators for depression, both as monotherapy and adjunctively. Several glutamate receptor-modulating agents have been tested in proof-of-concept studies for mood disorders. This manuscript gives a brief overview of the glutamate system and its relevance to rapid antidepressant response...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/33904154/"
+                     },
+                     {
+                         "sid":  "S10",
+                         "pmid":  "34902357",
+                         "title":  "High fat diet-induced obesity leads to depressive and anxiety-like behaviors in mice via AMPK/mTOR-mediated autophagy.",
+                         "year":  "2022",
+                         "journal":  "Experimental neurology",
+                         "text":  "[S10] Title: High fat diet-induced obesity leads to depressive and anxiety-like behaviors in mice via AMPK/mTOR-mediated autophagy.\nYear: 2022 | Journal: Experimental neurology | PMID: 34902357\nAbstract: Depression is one of the most common mental illnesses in modern society. In recent years, several studies show that there are disturbances in lipid metabolism in depressed patients. High-fat diet may lead to anxiety and depression, but the mechanisms involved remain unclear. In our study, we found that 8Â weeks of high-fat feeding effectively induced metabolic disorders, including obesity and hyperlipidemia in mice. Interestingly, the mice also showed depressive and anxiety-like behaviors. We further found activated microglia and astrocyte, increased neuroinflammation, decreased autophagy and BDNF levels in mice after high-fat feeding. Besides, high-fat feeding can also inhibit AMPK phosphorylation and induce mTOR phosphorylation. After treating with the mTOR inhibitor rapamycin, autophagy and BDNF levels were elevated. The number of activated microglia and astrocyte, and...",
+                         "url":  "https://pubmed.ncbi.nlm.nih.gov/34902357/"
+                     }
+                 ],
+    "report":  "## Research Report: Rapamycin and Depression\n\n**1) Question:** Does rapamycin have potential therapeutic benefits for depression based on the evidence provided in the snippets?\n\n**2) Evidence Summary:**\n\n- Rapamycin is an mTOR inhibitor that has been shown to reduce autophagy [S6][S10]. \n- Reduced autophagy has been linked to improved antidepressant effects [S4]. \n- High-fat diet, which can induce depression in mice, also reduces autophagy [S10]. \n- Inhibiting mTOR with rapamycin increased autophagy and BDNF levels in mice with high-fat-induced depression [S10]. \n\n**3) Biological Rationale:**\n\n- mTOR is a key regulator of cell growth and metabolism, and its overactivation has been implicated in the pathogenesis of various neurological disorders, including depression [S9].\n- Autophagy is a cellular process involved in the degradation and recycling of cellular components, and it plays a crucial role in maintaining neuronal health and plasticity [S6]. \n- Reduced autophagy and mTOR signaling have been observed in animal models of depression [S10], suggesting a potential link between these processes and depressive-like behaviors.\n- The finding that rapamycin, an mTOR inhibitor, enhances autophagy and increases BDNF levels in mice with high-fat-induced depression supports the hypothesis that mTOR inhibition may have antidepressant effects via promoting autophagy [S10].\n\n**4) Contradictions / Gaps:**\n\n- Evidence suggests that systemic administration of growth differentiation factor 11 (GDF11) in aged mice improves memory and alleviates senescence and depression-like symptoms. [S6]\n- The snippets provide limited information on the specific mechanisms underlying rapamycin\u0027s effects on autophagy and BDNF levels in the context of depression. [S10]\n- High-fat feeding can also inhibit AMPK phosphorylation and induce mTOR phosphorylation. After treating with the mTOR inhibitor rapamycin, autophagy and BDNF levels were elevated. [S10]\n\n**5) Uncertainty \u0026 Limitations:**\n\n- Evidence is primarily based on animal studies, and results may not directly translate to humans. [S10]\n- Insufficient evidence in provided snippets. [S1]\n- Further research is needed to validate these findings and explore the potential therapeutic benefits of rapamycin for depression in clinical settings. [S10]\n\n**6) Safety Note:**\n\nThis report summarizes research findings and does not constitute medical advice. Rapamycin is a potent drug with potential side effects, and its use for any therapeutic purpose should be strictly under the guidance of a qualified healthcare professional. ",
+    "trust_score":  100.0,
+    "metrics":  {
+                    "n_bullets":  14,
+                    "n_missing_citations":  6,
+                    "coverage_pct":  57.14,
+                    "bad_reference_nums":  [
+
+                                           ],
+                    "missing_examples":  [
+                                             "- Insufficient evidence to directly link rapamycin to antidepressant effects in humans.",
+                                             "- The optimal dosage and duration of rapamycin treatment for depression are unknown.",
+                                             "- Potential side effects of rapamycin need further investigation.",
+                                             "- Evidence is primarily based on animal studies, and results may not directly translate to humans.",
+                                             "- The snippets provide limited information on the specific mechanisms underlying rapamycin\u0027s effects on autophagy and BDNF levels in the context of depression."
+                                         ]
+                },
+    "sources":  [
+                    {
+                        "sid":  "S1",
+                        "pmid":  "29150166",
+                        "title":  "Exercise and mental health."
+                    },
+                    {
+                        "sid":  "S2",
+                        "pmid":  "29532791",
+                        "title":  "Mechanisms of ketamine action as an antidepressant."
+                    },
+                    {
+                        "sid":  "S3",
+                        "pmid":  "37998335",
+                        "title":  "Acne Transcriptomics: Fundamentals of Acne Pathogenesis and Isotretinoin Treatment."
+                    },
+                    {
+                        "sid":  "S4",
+                        "pmid":  "20724638",
+                        "title":  "mTOR-dependent synapse formation underlies the rapid antidepressant effects of NMDA antagonists."
+                    },
+                    {
+                        "sid":  "S5",
+                        "pmid":  "33155503",
+                        "title":  "Ketamine: A tale of two enantiomers."
+                    },
+                    {
+                        "sid":  "S6",
+                        "pmid":  "37118117",
+                        "title":  "Systemic GDF11 attenuates depression-like phenotype in aged mice via stimulation of neuronal autophagy."
+                    },
+                    {
+                        "sid":  "S7",
+                        "pmid":  "37000971",
+                        "title":  "Psilocybin facilitates fear extinction in mice by promoting hippocampal neuroplasticity."
+                    },
+                    {
+                        "sid":  "S8",
+                        "pmid":  "34565579",
+                        "title":  "Neuroplasticity as a convergent mechanism of ketamine and classical psychedelics."
+                    },
+                    {
+                        "sid":  "S9",
+                        "pmid":  "33904154",
+                        "title":  "Novel Glutamatergic Modulators for the Treatment of Mood Disorders: Current Status."
+                    },
+                    {
+                        "sid":  "S10",
+                        "pmid":  "34902357",
+                        "title":  "High fat diet-induced obesity leads to depressive and anxiety-like behaviors in mice via AMPK/mTOR-mediated autophagy."
+                    }
+                ],
+    "metrics_all":  {
+                        "n_bullets":  14,
+                        "n_missing_citations":  0,
+                        "coverage_pct":  100.0,
+                        "bad_reference_nums":  [
+
+                                               ],
+                        "missing_examples":  [
+
+                                             ]
+                    },
+    "agentic_used":  true,
+    "agentic_attempts":  1,
+    "metrics_sec2":  {
+                         "n_bullets":  4,
+                         "n_missing_citations":  0,
+                         "coverage_pct":  100.0,
+                         "bad_reference_nums":  [
+
+                                                ],
+                         "missing_examples":  [
+
+                                              ]
+                     },
+    "n_rewritten_to_insufficient":  1,
+    "report_path":  "/app/reports/Rapamycin__Depression__20260214_172637.md"
+}

@@ -1,0 +1,162 @@
+Short answer
+
+Rapamycin (sirolimus) is not an approved or proven treatment for depression.
+However, it is being studied because of its effects on the mTOR pathway, inflammation, and neuroplasticity. Evidence is early, mixed, and mostly experimental.
+
+Below is a careful research summary with citations.
+
+Research summary: rapamycin and depression
+1) Why scientists became interested in rapamycin
+
+Rapamycin is an mTOR inhibitor used as an immunosuppressant (e.g., transplant medicine).
+Researchers became interested because:
+
+The mTOR signaling pathway is strongly implicated in depression biology and antidepressant response.
+
+Rapid antidepressants like ketamine appear to work partly by activating mTOR and synaptic plasticity.
+
+This created a paradox:
+
+If mTOR activation helps depression, why study an mTOR inhibitor?
+
+The answer: rapamycin also affects inflammation, autophagy, and synapse stability, which may influence depression differently than simple mTOR activation.
+
+2) Animal research: antidepressant-like effects in mice
+
+Several preclinical studies suggest rapamycin can reduce depression-like behavior in animals.
+
+Examples:
+
+Chronic stress mice show depressive behavior and reduced brain myelination.
+
+Rapamycin prevented depressive behavior and improved myelination in the prefrontal cortex.
+
+Earlier rodent studies found antidepressant-like activity in forced swim and tail suspension tests.
+
+Interpretation:
+
+Suggests possible antidepressant mechanisms.
+
+But animal models often fail to translate to humans.
+
+3) Human clinical evidence: only small experimental studies
+3.1 Rapamycin alone has not been proven to treat depression
+
+There are no large randomized trials showing rapamycin works as a standalone antidepressant.
+
+Most human research instead studies rapamycin combined with ketamine.
+
+3.2 Key randomized clinical trial: rapamycin + ketamine
+
+This is the most important human evidence.
+
+Study design
+
+Depressed patients randomized to:
+
+rapamycin pretreatment + ketamine
+
+placebo pretreatment + ketamine
+
+Main findings
+
+Rapamycin did NOT block ketamine’s antidepressant effect at 24 hours.
+
+Surprisingly, rapamycin prolonged ketamine’s antidepressant effects over 2 weeks.
+
+Response rate at 2 weeks:
+
+Rapamycin + ketamine: 41%
+
+Placebo + ketamine: 13%
+
+Researchers concluded:
+
+Rapamycin may help extend the duration of ketamine’s antidepressant benefit.
+
+Important:
+This is preliminary evidence requiring replication.
+
+4) Possible mechanisms being investigated
+
+Researchers propose several hypotheses.
+
+A) Anti-inflammatory effects
+
+Depression is increasingly linked to chronic inflammation.
+Rapamycin’s immune effects might:
+
+Protect newly formed synapses after ketamine treatment
+
+Reduce relapse risk
+
+B) Autophagy and brain plasticity
+
+Rapamycin increases autophagy (cellular recycling).
+This may:
+
+Improve neuronal health
+
+Support long-term synaptic changes
+
+C) Complex role of mTOR
+
+The relationship is complicated:
+
+Reduced mTOR activity is associated with depressive symptoms.
+
+But rapamycin might help through non-mTOR mechanisms (immune/autophagy effects).
+
+5) Safety signals and concerns
+
+Some real-world evidence raises caution.
+
+A study of transplant patients found:
+
+Rapamycin users had more psychiatric disorders such as adjustment disorder.
+
+This does not prove causation, but highlights risks.
+
+Rapamycin side effects include:
+
+Immunosuppression
+
+infection risk
+
+metabolic changes
+
+This makes routine psychiatric use challenging.
+
+6) Current scientific consensus
+
+What experts generally agree on:
+
+Supported
+
+mTOR is an important depression pathway.
+
+Rapamycin is a valuable research tool.
+
+It may help extend ketamine’s effects (preliminary evidence).
+
+Not supported
+
+Rapamycin as a standalone antidepressant.
+
+Clinical use outside research settings.
+
+Bottom line
+
+Does rapamycin treat depression?
+
+Animal studies: promising.
+
+Human trials: very limited.
+
+Best evidence: may prolong ketamine’s antidepressant effect.
+
+No proof it works by itself.
+
+Not an approved treatment.
+
+Overall: rapamycin is an experimental research avenue, not a depression treatment
