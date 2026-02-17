@@ -1,3 +1,10 @@
+## Development History
+
+The project evolved from an experimental research notebook
+(notebooks/medgemma_original_research.ipynb)
+into a production-ready FastAPI + Docker architecture.
+
+
 # MedGemma Evidence Engine
 
 MedGemma is an **evidence integrity layer** for biomedical questions.
