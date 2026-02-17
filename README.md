@@ -1,7 +1,7 @@
 ## Development History
 
 The project evolved from an experimental research notebook
-(notebooks/medgemma_original_research.ipynb)
+(notebooks/agent-biomedical-assistant.ipynb)
 into a production-ready FastAPI + Docker architecture.
 
 
